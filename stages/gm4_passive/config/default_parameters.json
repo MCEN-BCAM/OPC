@@ -1,0 +1,23 @@
+{
+  "passive_parameters": {
+    "rm_ohm_cm2": 20000.0,
+    "ra_ohm_cm": 150.0,
+    "cm_uF_cm2": 1.0,
+    "e_pas_mV": -75.0,
+    "process_diameter_um": 0.30
+  },
+  "current_step": {
+    "delay_ms": 20.0,
+    "duration_ms": 80.0,
+    "amplitude_nA": -0.01,
+    "tstop_ms": 130.0,
+    "dt_ms": 0.025
+  },
+  "transfer": {
+    "delay_ms": 10.0,
+    "duration_ms": 40.0,
+    "amplitude_nA": -0.005,
+    "tstop_ms": 65.0,
+    "dt_ms": 0.025
+  }
+}

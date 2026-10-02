@@ -1,0 +1,8 @@
+{
+  "calibration_source": "GM4.5 extended cohort calibration, 445 simulations",
+  "calibrated_rm_kohm_cm2_by_age": {"P10": 29.741010083005232, "P20": 10.094385601286076, "P50": 2.394438696918089},
+  "passive": {"ra_ohm_cm": 150.0, "cm_uF_cm2": 1.0, "e_pas_mV": -75.0, "process_diameter_um": 0.30, "d_lambda_frequency_Hz": 100.0, "d_lambda_fraction": 0.10},
+  "synapse": {"tau1_ms": 0.5, "tau2_ms": 3.0, "reversal_mV": 0.0, "weight_uS": 0.00005},
+  "simulation": {"dt_ms": 0.025, "tstop_ms": 120.0, "v_init_mV": -75.0, "baseline_end_ms": 19.0},
+  "protocols": {"single_event_ms": 20.0, "temporal_intervals_ms": [2.0,5.0,10.0,20.0,50.0], "spatial_counts": [1,2,4,8], "site_quantiles": [0.15,0.50,0.85], "max_candidate_sites": 12}
+}

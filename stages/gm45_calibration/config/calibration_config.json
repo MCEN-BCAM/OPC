@@ -1,0 +1,18 @@
+{
+  "rm_values_kohm_cm2": [2, 3, 4, 5, 6, 7, 8, 10, 12, 15, 20],
+  "expected_cell_count": 35,
+  "experimental_rin_mohm": {
+    "P10": {"mean_mohm": 2245.0, "sem_mohm": 185.8},
+    "P20": {"mean_mohm": 588.4, "sem_mohm": 45.78},
+    "P50": {"mean_mohm": 179.5, "sem_mohm": 11.71}
+  },
+  "reconstructions": {
+    "root": "../../3-opc_step3_validation",
+    "glob": "**/*_reconstruction.json"
+  },
+  "gm4": {
+    "backend": "python",
+    "path": "../../4-opc_step4_cohort_passive",
+    "callable": "opc_gm45.gm4_bridge:simulate_passive"
+  }
+}
