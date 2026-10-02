@@ -1,0 +1,13 @@
+{
+  "cell_id": "NX15_26_P20",
+  "inventory_status": "complete_with_warnings",
+  "started_at": "2026-07-26T09:17:28.211080+00:00",
+  "stages": {
+    "data": {
+      "status": "failed",
+      "finished_at": "2026-07-26T09:17:28.211415+00:00",
+      "error": "No module named 'xlrd'",
+      "traceback": "Traceback (most recent call last):\n  File \"/mnt/data/opc_inventory_driven_pipeline/run_pipeline.py\", line 116, in run_cell\n    detail=funcs[stage](); manifest[\"stages\"][stage]={\"status\":\"complete\",\"finished_at\":utcnow(),\"detail\":detail}\n  File \"/mnt/data/opc_inventory_driven_pipeline/run_pipeline.py\", line 111, in <lambda>\n    funcs={\"data\":lambda:stage_data(record,Path(data_root),root),\"reconstruction\":lambda:stage_reconstruction(record,root,cfg[\"coordinate_tolerance\"]),\"validation\":lambda:stage_validation(record,root),\"neuron\":lambda:stage_neuron(record,root,cfg),\"synaptic\":lambda:stage_synaptic(record,root,cfg),\"dense\":lambda:stage_dense(record,root,cfg)}\n                         ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/data/opc_inventory_driven_pipeline/run_pipeline.py\", line 38, in stage_data\n    from opc_data.dataset import Dataset\n  File \"/mnt/data/opc_inventory_driven_pipeline/opc_data/dataset.py\", line 12, in <module>\n    from .readers import WorkbookData, read_workbook\n  File \"/mnt/data/opc_inventory_driven_pipeline/opc_data/readers.py\", line 9, in <module>\n    import xlrd\nModuleNotFoundError: No module named 'xlrd'\n"
+    }
+  }
+}

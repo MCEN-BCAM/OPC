@@ -1,0 +1,948 @@
+{
+  "schema_version": "1.0",
+  "dataset_root": "/mnt/data/opc_step2_inputs/extracted/MariaDATA/MariaDATA",
+  "required_families": [
+    "basic_analysis",
+    "sholl",
+    "angles",
+    "nearest_neighbour"
+  ],
+  "optional_families": [
+    "nearest_neighbour_2_5",
+    "tracing_candidates"
+  ],
+  "summary": {
+    "total_cells": 41,
+    "complete": 10,
+    "complete_with_warnings": 25,
+    "incomplete": 6,
+    "by_age": {
+      "P10": {
+        "incomplete": 2,
+        "total": 14,
+        "complete_with_warnings": 10,
+        "complete": 2
+      },
+      "P20": {
+        "complete_with_warnings": 7,
+        "total": 12,
+        "complete": 5
+      },
+      "P50": {
+        "complete": 3,
+        "total": 15,
+        "complete_with_warnings": 8,
+        "incomplete": 4
+      }
+    }
+  },
+  "cells": [
+    {
+      "cell_id": "NX13_1",
+      "animal_id": "NX13",
+      "cell_label": "1",
+      "age_group": "P10",
+      "basic_analysis": "",
+      "sholl": "",
+      "angles": "NLResults/Angles/P10/XLSX_Files/NX13_1_angles.xlsx",
+      "nearest_neighbour": "",
+      "nearest_neighbour_2_5": "",
+      "tracing_candidates": [
+        "NLTracings/P10/1Jun2014_NX13_analysis_corrected.DAT"
+      ],
+      "missing_required": [
+        "basic_analysis",
+        "sholl",
+        "nearest_neighbour"
+      ],
+      "warnings": [],
+      "status": "incomplete"
+    },
+    {
+      "cell_id": "NX13_3",
+      "animal_id": "NX13",
+      "cell_label": "3",
+      "age_group": "P10",
+      "basic_analysis": "NLResults/BasicAnalyses/P10/NX13_3_p10_0aligned1.xls",
+      "sholl": "NLResults/Sholl/P10/NX13_3_Sholl2_5.xls",
+      "angles": "",
+      "nearest_neighbour": "NLResults/NearestNeighbour/P10/XLSX_Files/NX13_3_NN.xlsx",
+      "nearest_neighbour_2_5": "NLResults/NearestNeighbour/P10/XLSX_Files/NX13_3_NN_2_5.xlsx",
+      "tracing_candidates": [
+        "NLTracings/P10/1Jun2014_NX13_analysis_corrected.DAT"
+      ],
+      "missing_required": [
+        "angles"
+      ],
+      "warnings": [],
+      "status": "incomplete"
+    },
+    {
+      "cell_id": "NX22_1",
+      "animal_id": "NX22",
+      "cell_label": "1",
+      "age_group": "P10",
+      "basic_analysis": "NLResults/BasicAnalyses/P10/NX22_1_p10_0aligned1.xls",
+      "sholl": "NLResults/Sholl/P10/NX22_1_Sholl2_5.xls",
+      "angles": "NLResults/Angles/P10/XLSX_Files/NX22_1_angles.xlsx",
+      "nearest_neighbour": "NLResults/NearestNeighbour/P10/XLSX_Files/NX22_1_NN.xlsx",
+      "nearest_neighbour_2_5": "NLResults/NearestNeighbour/P10/XLSX_Files/NX22_1_NN_2_5.xlsx",
+      "tracing_candidates": [
+        "NLTracings/P10/21Jun2014_NX22_1_p10_corrected.DAT",
+        "NLTracings/P10/21Jun2014_NX22_4_p8_flat_corrected.DAT"
+      ],
+      "missing_required": [],
+      "warnings": [
+        "multiple_tracing_candidates:2"
+      ],
+      "status": "complete_with_warnings"
+    },
+    {
+      "cell_id": "NX22_4",
+      "animal_id": "NX22",
+      "cell_label": "4",
+      "age_group": "P10",
+      "basic_analysis": "NLResults/BasicAnalyses/P10/NX22_4_p10_0aligned1.xls",
+      "sholl": "NLResults/Sholl/P10/NX22_4_Sholl2_5.xls",
+      "angles": "NLResults/Angles/P10/XLSX_Files/NX22_4_angles.xlsx",
+      "nearest_neighbour": "NLResults/NearestNeighbour/P10/XLSX_Files/NX22_4_NN.xlsx",
+      "nearest_neighbour_2_5": "NLResults/NearestNeighbour/P10/XLSX_Files/NX22_4_NN_2_5.xlsx",
+      "tracing_candidates": [
+        "NLTracings/P10/21Jun2014_NX22_1_p10_corrected.DAT",
+        "NLTracings/P10/21Jun2014_NX22_4_p8_flat_corrected.DAT"
+      ],
+      "missing_required": [],
+      "warnings": [
+        "multiple_tracing_candidates:2"
+      ],
+      "status": "complete_with_warnings"
+    },
+    {
+      "cell_id": "NX5_22",
+      "animal_id": "NX5",
+      "cell_label": "22",
+      "age_group": "P10",
+      "basic_analysis": "NLResults/BasicAnalyses/P10/NX5_22_p10_0aligned1.xls",
+      "sholl": "NLResults/Sholl/P10/NX5_22_Sholl2_5.xls",
+      "angles": "NLResults/Angles/P10/XLSX_Files/NX5_22_angles.xlsx",
+      "nearest_neighbour": "NLResults/NearestNeighbour/P10/XLSX_Files/NX5_22_NN.xlsx",
+      "nearest_neighbour_2_5": "NLResults/NearestNeighbour/P10/XLSX_Files/NX5_22_NN_2_5.xlsx",
+      "tracing_candidates": [
+        "NLTracings/P10/22Jun2014_NX5_stack2_flatcell_p10_corrected.DAT",
+        "NLTracings/P10/9Jul2014_NX5_stack1_analysis.DAT"
+      ],
+      "missing_required": [],
+      "warnings": [
+        "multiple_tracing_candidates:2"
+      ],
+      "status": "complete_with_warnings"
+    },
+    {
+      "cell_id": "NX5_9",
+      "animal_id": "NX5",
+      "cell_label": "9",
+      "age_group": "P10",
+      "basic_analysis": "NLResults/BasicAnalyses/P10/NX5_9_p10_0aligned1.xls",
+      "sholl": "NLResults/Sholl/P10/NX5_9_Sholl2_5.xls",
+      "angles": "NLResults/Angles/P10/XLSX_Files/NX5_9_angles.xlsx",
+      "nearest_neighbour": "NLResults/NearestNeighbour/P10/XLSX_Files/NX5_9_NN.xlsx",
+      "nearest_neighbour_2_5": "NLResults/NearestNeighbour/P10/XLSX_Files/NX5_9_NN_2_5.xlsx",
+      "tracing_candidates": [
+        "NLTracings/P10/22Jun2014_NX5_stack2_flatcell_p10_corrected.DAT",
+        "NLTracings/P10/9Jul2014_NX5_stack1_analysis.DAT"
+      ],
+      "missing_required": [],
+      "warnings": [
+        "multiple_tracing_candidates:2"
+      ],
+      "status": "complete_with_warnings"
+    },
+    {
+      "cell_id": "NX64_1",
+      "animal_id": "NX64",
+      "cell_label": "1",
+      "age_group": "P10",
+      "basic_analysis": "NLResults/BasicAnalyses/P10/NX64_1_p10_0aligned1.xls",
+      "sholl": "NLResults/Sholl/P10/NX64_1_Sholl2_5.xls",
+      "angles": "NLResults/Angles/P10/XLSX_Files/NX64_1_angles.xlsx",
+      "nearest_neighbour": "NLResults/NearestNeighbour/P10/XLSX_Files/NX64_1_NN.xlsx",
+      "nearest_neighbour_2_5": "NLResults/NearestNeighbour/P10/XLSX_Files/NX64_1_NN_2_5.xlsx",
+      "tracing_candidates": [
+        "NLTracings/P10/20Jul2014_NX64_p10_stack1_problematic.DAT",
+        "NLTracings/P10/20Jul2014_NX64_p10_stack2_corrected.DAT"
+      ],
+      "missing_required": [],
+      "warnings": [
+        "multiple_tracing_candidates:2"
+      ],
+      "status": "complete_with_warnings"
+    },
+    {
+      "cell_id": "NX64_2",
+      "animal_id": "NX64",
+      "cell_label": "2",
+      "age_group": "P10",
+      "basic_analysis": "NLResults/BasicAnalyses/P10/NX64_2_p10_0aligned1.xls",
+      "sholl": "NLResults/Sholl/P10/NX64_2_Sholl2_5.xls",
+      "angles": "NLResults/Angles/P10/XLSX_Files/NX64_2_angles.xlsx",
+      "nearest_neighbour": "NLResults/NearestNeighbour/P10/XLSX_Files/NX64_2_NN.xlsx",
+      "nearest_neighbour_2_5": "NLResults/NearestNeighbour/P10/XLSX_Files/NX64_2_NN_2_5.xlsx",
+      "tracing_candidates": [
+        "NLTracings/P10/20Jul2014_NX64_p10_stack1_problematic.DAT",
+        "NLTracings/P10/20Jul2014_NX64_p10_stack2_corrected.DAT"
+      ],
+      "missing_required": [],
+      "warnings": [
+        "multiple_tracing_candidates:2"
+      ],
+      "status": "complete_with_warnings"
+    },
+    {
+      "cell_id": "NX65_16",
+      "animal_id": "NX65",
+      "cell_label": "16",
+      "age_group": "P10",
+      "basic_analysis": "NLResults/BasicAnalyses/P10/NX65_16_p10_0aligned1.xls",
+      "sholl": "NLResults/Sholl/P10/NX65_16_Sholl2_5.xls",
+      "angles": "NLResults/Angles/P10/XLSX_Files/NX65_16_angles.xlsx",
+      "nearest_neighbour": "NLResults/NearestNeighbour/P10/XLSX_Files/NX65_16_NN.xlsx",
+      "nearest_neighbour_2_5": "NLResults/NearestNeighbour/P10/XLSX_Files/NX65_16_NN_2_5.xlsx",
+      "tracing_candidates": [
+        "NLTracings/P10/16Aug2014_NX65_CCedge_analysis.DAT"
+      ],
+      "missing_required": [],
+      "warnings": [],
+      "status": "complete"
+    },
+    {
+      "cell_id": "NX65_5",
+      "animal_id": "NX65",
+      "cell_label": "5",
+      "age_group": "P10",
+      "basic_analysis": "NLResults/BasicAnalyses/P10/NX65_5_p10_0aligned1.xls",
+      "sholl": "NLResults/Sholl/P10/NX65_5_Sholl2_5.xls",
+      "angles": "NLResults/Angles/P10/XLSX_Files/NX65_5_angles.xlsx",
+      "nearest_neighbour": "NLResults/NearestNeighbour/P10/XLSX_Files/NX65_5_NN.xlsx",
+      "nearest_neighbour_2_5": "NLResults/NearestNeighbour/P10/XLSX_Files/NX65_5_NN_2_5.xlsx",
+      "tracing_candidates": [
+        "NLTracings/P10/16Aug2014_NX65_CCedge_analysis.DAT"
+      ],
+      "missing_required": [],
+      "warnings": [],
+      "status": "complete"
+    },
+    {
+      "cell_id": "NX72_1",
+      "animal_id": "NX72",
+      "cell_label": "1",
+      "age_group": "P10",
+      "basic_analysis": "NLResults/BasicAnalyses/P10/NX72_1_p10_0aligned1.xls",
+      "sholl": "NLResults/Sholl/P10/NX72_1_Sholl2_5.xls",
+      "angles": "NLResults/Angles/P10/XLSX_Files/NX72_1_angles.xlsx",
+      "nearest_neighbour": "NLResults/NearestNeighbour/P10/XLSX_Files/NX72_1_NN.xlsx",
+      "nearest_neighbour_2_5": "NLResults/NearestNeighbour/P10/XLSX_Files/NX72_1_NN_2_5.xlsx",
+      "tracing_candidates": [
+        "NLTracings/P10/22Jul2014_NX72_btm_p10_analysis_corrected.DAT",
+        "NLTracings/P10/22JulNX72_p10_cell2_analysis_corrected.DAT"
+      ],
+      "missing_required": [],
+      "warnings": [
+        "multiple_tracing_candidates:2"
+      ],
+      "status": "complete_with_warnings"
+    },
+    {
+      "cell_id": "NX72_2",
+      "animal_id": "NX72",
+      "cell_label": "2",
+      "age_group": "P10",
+      "basic_analysis": "NLResults/BasicAnalyses/P10/NX72_2_p10_0aligned1.xls",
+      "sholl": "NLResults/Sholl/P10/NX72_2_Sholl2_5.xls",
+      "angles": "NLResults/Angles/P10/XLSX_Files/NX72_2_angles.xlsx",
+      "nearest_neighbour": "NLResults/NearestNeighbour/P10/XLSX_Files/NX72_2_NN.xlsx",
+      "nearest_neighbour_2_5": "NLResults/NearestNeighbour/P10/XLSX_Files/NX72_2_NN_2_5.xlsx",
+      "tracing_candidates": [
+        "NLTracings/P10/22Jul2014_NX72_btm_p10_analysis_corrected.DAT",
+        "NLTracings/P10/22JulNX72_p10_cell2_analysis_corrected.DAT"
+      ],
+      "missing_required": [],
+      "warnings": [
+        "multiple_tracing_candidates:2"
+      ],
+      "status": "complete_with_warnings"
+    },
+    {
+      "cell_id": "NX73_19",
+      "animal_id": "NX73",
+      "cell_label": "19",
+      "age_group": "P10",
+      "basic_analysis": "NLResults/BasicAnalyses/P10/NX73_19_p10_0aligned1.xls",
+      "sholl": "NLResults/Sholl/P10/NX73_19_Sholl2_5.xls",
+      "angles": "NLResults/Angles/P10/XLSX_Files/NX73_19_angles.xlsx",
+      "nearest_neighbour": "NLResults/NearestNeighbour/P10/XLSX_Files/NX73_19_NN.xlsx",
+      "nearest_neighbour_2_5": "NLResults/NearestNeighbour/P10/XLSX_Files/NX73_19_NN_2_5.xlsx",
+      "tracing_candidates": [
+        "NLTracings/P10/19Sep_NX73_p10_smallcell_nomarks_corrected.DAT",
+        "NLTracings/P10/21JulNX73_p10_corrected.DAT"
+      ],
+      "missing_required": [],
+      "warnings": [
+        "multiple_tracing_candidates:2"
+      ],
+      "status": "complete_with_warnings"
+    },
+    {
+      "cell_id": "NX73_21",
+      "animal_id": "NX73",
+      "cell_label": "21",
+      "age_group": "P10",
+      "basic_analysis": "NLResults/BasicAnalyses/P10/NX73_21_p10_0aligned1.xls",
+      "sholl": "NLResults/Sholl/P10/NX73_21_Sholl2_5.xls",
+      "angles": "NLResults/Angles/P10/XLSX_Files/NX73_21_angles.xlsx",
+      "nearest_neighbour": "NLResults/NearestNeighbour/P10/XLSX_Files/NX73_21_NN.xlsx",
+      "nearest_neighbour_2_5": "NLResults/NearestNeighbour/P10/XLSX_Files/NX73_21_NN_2_5.xlsx",
+      "tracing_candidates": [
+        "NLTracings/P10/19Sep_NX73_p10_smallcell_nomarks_corrected.DAT",
+        "NLTracings/P10/21JulNX73_p10_corrected.DAT"
+      ],
+      "missing_required": [],
+      "warnings": [
+        "multiple_tracing_candidates:2"
+      ],
+      "status": "complete_with_warnings"
+    },
+    {
+      "cell_id": "NX15_26",
+      "animal_id": "NX15",
+      "cell_label": "26",
+      "age_group": "P20",
+      "basic_analysis": "NLResults/BasicAnalyses/P20/NX15_26_p20_0aligned1.xls",
+      "sholl": "NLResults/Sholl/P20/NX15_26_Sholl2_5.xls",
+      "angles": "NLResults/Angles/P20/XLSX_Files/NX15_26_angles.xlsx",
+      "nearest_neighbour": "NLResults/NearestNeighbour/P20/XLSX_Files/NX15_26_NN.xlsx",
+      "nearest_neighbour_2_5": "NLResults/NearestNeighbour/P20/XLSX_Files/NX15_26_NN_2_5.xlsx",
+      "tracing_candidates": [
+        "NLTracings/P20/24Jun2014_NX15_corrected.DAT",
+        "NLTracings/P20/26Jun2014_NX15_stack_corrected.DAT"
+      ],
+      "missing_required": [],
+      "warnings": [
+        "multiple_tracing_candidates:2"
+      ],
+      "status": "complete_with_warnings"
+    },
+    {
+      "cell_id": "NX16_1",
+      "animal_id": "NX16",
+      "cell_label": "1",
+      "age_group": "P20",
+      "basic_analysis": "NLResults/BasicAnalyses/P20/NX16_1_p20_0aligned1.xls",
+      "sholl": "NLResults/Sholl/P20/NX16_1_Sholl2_5.xls",
+      "angles": "NLResults/Angles/P20/XLSX_Files/NX16_1_angles.xlsx",
+      "nearest_neighbour": "NLResults/NearestNeighbour/P20/XLSX_Files/NX16_1_NN.xlsx",
+      "nearest_neighbour_2_5": "NLResults/NearestNeighbour/P20/XLSX_Files/NX16_1_NN_2_5.xlsx",
+      "tracing_candidates": [
+        "NLTracings/P20/1JulNX16_p20_stack2_corrected.DAT",
+        "NLTracings/P20/1JulNX16_stack1_p20_analysis.DAT"
+      ],
+      "missing_required": [],
+      "warnings": [
+        "multiple_tracing_candidates:2"
+      ],
+      "status": "complete_with_warnings"
+    },
+    {
+      "cell_id": "NX16_2",
+      "animal_id": "NX16",
+      "cell_label": "2",
+      "age_group": "P20",
+      "basic_analysis": "NLResults/BasicAnalyses/P20/NX16_2_p20_0aligned1.xls",
+      "sholl": "NLResults/Sholl/P20/NX16_2_Sholl2_5.xls",
+      "angles": "NLResults/Angles/P20/XLSX_Files/NX16_2_angles.xlsx",
+      "nearest_neighbour": "NLResults/NearestNeighbour/P20/XLSX_Files/NX16_2_NN.xlsx",
+      "nearest_neighbour_2_5": "NLResults/NearestNeighbour/P20/XLSX_Files/NX16_2_NN_2_5.xlsx",
+      "tracing_candidates": [
+        "NLTracings/P20/1JulNX16_p20_stack2_corrected.DAT",
+        "NLTracings/P20/1JulNX16_stack1_p20_analysis.DAT"
+      ],
+      "missing_required": [],
+      "warnings": [
+        "multiple_tracing_candidates:2"
+      ],
+      "status": "complete_with_warnings"
+    },
+    {
+      "cell_id": "NX57_11",
+      "animal_id": "NX57",
+      "cell_label": "11",
+      "age_group": "P20",
+      "basic_analysis": "NLResults/BasicAnalyses/P20/NX57_11_p20_0aligned_xx.xls",
+      "sholl": "NLResults/Sholl/P20/NX57_11_Sholl2_5.xls",
+      "angles": "NLResults/Angles/P20/XLSX_Files/NX57_11_angles.xlsx",
+      "nearest_neighbour": "NLResults/NearestNeighbour/P20/XLSX_Files/NX57_11_NN.xlsx",
+      "nearest_neighbour_2_5": "NLResults/NearestNeighbour/P20/XLSX_Files/NX57_11_NN_2_5.xlsx",
+      "tracing_candidates": [
+        "NLTracings/P20/11Jun2014_NX57_p20_smallcell_corrected.DAT"
+      ],
+      "missing_required": [],
+      "warnings": [],
+      "status": "complete"
+    },
+    {
+      "cell_id": "NX6_29",
+      "animal_id": "NX6",
+      "cell_label": "29",
+      "age_group": "P20",
+      "basic_analysis": "NLResults/BasicAnalyses/P20/NX6_29_p20_0aligned1.xls",
+      "sholl": "NLResults/Sholl/P20/NX6_29_Sholl2_5.xls",
+      "angles": "NLResults/Angles/P20/XLSX_Files/NX6_29_angles.xlsx",
+      "nearest_neighbour": "NLResults/NearestNeighbour/P20/XLSX_Files/NX6_29_NN.xlsx",
+      "nearest_neighbour_2_5": "NLResults/NearestNeighbour/P20/XLSX_Files/NX6_29_NN_2_5.xlsx",
+      "tracing_candidates": [
+        "NLTracings/P20/29JunNX6_stack2_p20_corrected.DAT",
+        "NLTracings/P20/4Jul2014_NX6_p20_corrected.DAT"
+      ],
+      "missing_required": [],
+      "warnings": [
+        "multiple_tracing_candidates:2"
+      ],
+      "status": "complete_with_warnings"
+    },
+    {
+      "cell_id": "NX6_4",
+      "animal_id": "NX6",
+      "cell_label": "4",
+      "age_group": "P20",
+      "basic_analysis": "NLResults/BasicAnalyses/P20/NX6_4_p20_0aligned1.xls",
+      "sholl": "NLResults/Sholl/P20/NX6_4_Sholl2_5.xls",
+      "angles": "NLResults/Angles/P20/XLSX_Files/NX6_4_angles.xlsx",
+      "nearest_neighbour": "NLResults/NearestNeighbour/P20/XLSX_Files/NX6_4_NN.xlsx",
+      "nearest_neighbour_2_5": "NLResults/NearestNeighbour/P20/XLSX_Files/NX6_4_NN_2_5.xlsx",
+      "tracing_candidates": [
+        "NLTracings/P20/29JunNX6_stack2_p20_corrected.DAT",
+        "NLTracings/P20/4Jul2014_NX6_p20_corrected.DAT"
+      ],
+      "missing_required": [],
+      "warnings": [
+        "multiple_tracing_candidates:2"
+      ],
+      "status": "complete_with_warnings"
+    },
+    {
+      "cell_id": "NX74_20",
+      "animal_id": "NX74",
+      "cell_label": "20",
+      "age_group": "P20",
+      "basic_analysis": "NLResults/BasicAnalyses/P20/NX74_20_p20_0aligned1.xls",
+      "sholl": "NLResults/Sholl/P20/NX74_20_Sholl2_5.xls",
+      "angles": "NLResults/Angles/P20/XLSX_Files/NX74_20_angles.xlsx",
+      "nearest_neighbour": "NLResults/NearestNeighbour/P20/XLSX_Files/NX74_20_NN.xlsx",
+      "nearest_neighbour_2_5": "NLResults/NearestNeighbour/P20/XLSX_Files/NX74_20_NN_2_5.xlsx",
+      "tracing_candidates": [
+        "NLTracings/P20/20Sep2014_NX74_roundcell_corrected.DAT",
+        "NLTracings/P20/26Aug2014_NX74_corrected.DAT"
+      ],
+      "missing_required": [],
+      "warnings": [
+        "multiple_tracing_candidates:2"
+      ],
+      "status": "complete_with_warnings"
+    },
+    {
+      "cell_id": "NX74_26",
+      "animal_id": "NX74",
+      "cell_label": "26",
+      "age_group": "P20",
+      "basic_analysis": "NLResults/BasicAnalyses/P20/NX74_26_p20_0aligned1.xls",
+      "sholl": "NLResults/Sholl/P20/NX74_26_Sholl2_5.xls",
+      "angles": "NLResults/Angles/P20/XLSX_Files/NX74_26_angles.xlsx",
+      "nearest_neighbour": "NLResults/NearestNeighbour/P20/XLSX_Files/NX74_26_NN.xlsx",
+      "nearest_neighbour_2_5": "NLResults/NearestNeighbour/P20/XLSX_Files/NX74_26_NN_2_5.xlsx",
+      "tracing_candidates": [
+        "NLTracings/P20/20Sep2014_NX74_roundcell_corrected.DAT",
+        "NLTracings/P20/26Aug2014_NX74_corrected.DAT"
+      ],
+      "missing_required": [],
+      "warnings": [
+        "multiple_tracing_candidates:2"
+      ],
+      "status": "complete_with_warnings"
+    },
+    {
+      "cell_id": "NX7_19",
+      "animal_id": "NX7",
+      "cell_label": "19",
+      "age_group": "P20",
+      "basic_analysis": "NLResults/BasicAnalyses/P20/NX7_19_p20_0aligned1.xls",
+      "sholl": "NLResults/Sholl/P20/NX7_19_Sholl2_5.xls",
+      "angles": "NLResults/Angles/P20/XLSX_Files/NX7_19_angles.xlsx",
+      "nearest_neighbour": "NLResults/NearestNeighbour/P20/XLSX_Files/NX7_19_NN.xlsx",
+      "nearest_neighbour_2_5": "NLResults/NearestNeighbour/P20/XLSX_Files/NX7_19_NN_2_5.xlsx",
+      "tracing_candidates": [
+        "NLTracings/P20/19Jun2014_NX7_stack2_corrected_p20.DAT"
+      ],
+      "missing_required": [],
+      "warnings": [],
+      "status": "complete"
+    },
+    {
+      "cell_id": "NX83_11",
+      "animal_id": "NX83",
+      "cell_label": "11",
+      "age_group": "P20",
+      "basic_analysis": "NLResults/BasicAnalyses/P20/NX83_11_p20_0aligned1.xls",
+      "sholl": "NLResults/Sholl/P20/NX83_11_Sholl2_5.xls",
+      "angles": "NLResults/Angles/P20/XLSX_Files/NX83_11_angles.xlsx",
+      "nearest_neighbour": "NLResults/NearestNeighbour/P20/XLSX_Files/NX83_11_NN.xlsx",
+      "nearest_neighbour_2_5": "NLResults/NearestNeighbour/P20/XLSX_Files/NX83_11_NN_2_5.xlsx",
+      "tracing_candidates": [
+        "NLTracings/P20/11Jul2016_NX83_p20_corrected.DAT"
+      ],
+      "missing_required": [],
+      "warnings": [],
+      "status": "complete"
+    },
+    {
+      "cell_id": "NX93_low",
+      "animal_id": "NX93",
+      "cell_label": "low",
+      "age_group": "P20",
+      "basic_analysis": "NLResults/BasicAnalyses/P20/NX93_low_p20_0aligned1.xls",
+      "sholl": "NLResults/Sholl/P20/NX93_low_Sholl2_5.xls",
+      "angles": "NLResults/Angles/P20/XLSX_Files/NX93_low_angles.xlsx",
+      "nearest_neighbour": "NLResults/NearestNeighbour/P20/XLSX_Files/NX93low_NN.xlsx",
+      "nearest_neighbour_2_5": "NLResults/NearestNeighbour/P20/XLSX_Files/NX93low_NN_2_5.xlsx",
+      "tracing_candidates": [
+        "NLTracings/P20/3Jul2016_NX93_p20_bottomcell_corrected.DAT"
+      ],
+      "missing_required": [],
+      "warnings": [],
+      "status": "complete"
+    },
+    {
+      "cell_id": "NX93_up",
+      "animal_id": "NX93",
+      "cell_label": "up",
+      "age_group": "P20",
+      "basic_analysis": "NLResults/BasicAnalyses/P20/NX93_up_p20_0aligned1.xls",
+      "sholl": "NLResults/Sholl/P20/NX93_up_Sholl2_5.xls",
+      "angles": "NLResults/Angles/P20/XLSX_Files/NX93_top_angles.xlsx",
+      "nearest_neighbour": "NLResults/NearestNeighbour/P20/XLSX_Files/NX93up_NN.xlsx",
+      "nearest_neighbour_2_5": "NLResults/NearestNeighbour/P20/XLSX_Files/NX93up_NN_2_5.xlsx",
+      "tracing_candidates": [
+        "NLTracings/P20/3Jul2016_NX93_p20_bottomcell_corrected.DAT"
+      ],
+      "missing_required": [],
+      "warnings": [],
+      "status": "complete"
+    },
+    {
+      "cell_id": "NX18_15",
+      "animal_id": "NX18",
+      "cell_label": "15",
+      "age_group": "P50",
+      "basic_analysis": "NLResults/BasicAnalyses/P50/NX18_15_p50_0aligned1.xls",
+      "sholl": "NLResults/Sholl/P50/NX18_15_Sholl2_5.xls",
+      "angles": "NLResults/Angles/P50/XLSX_Files/NX18_15_angles.xlsx",
+      "nearest_neighbour": "NLResults/NearestNeighbour/P50/XLSX_Files/NX18_15_NN.xlsx",
+      "nearest_neighbour_2_5": "NLResults/NearestNeighbour/P50/XLSX_Files/NX18_15_NN_2_5.xlsx",
+      "tracing_candidates": [
+        "NLTracings/P50/15Jun2014_NX18_p50_analysis.DAT"
+      ],
+      "missing_required": [],
+      "warnings": [],
+      "status": "complete"
+    },
+    {
+      "cell_id": "NX30_15",
+      "animal_id": "NX30",
+      "cell_label": "15",
+      "age_group": "P50",
+      "basic_analysis": "NLResults/BasicAnalyses/P50/NX30_15_p50_0aligned1.xls",
+      "sholl": "NLResults/Sholl/P50/NX30_15_Sholl2_5.xls",
+      "angles": "NLResults/Angles/P50/XLSX_Files/NX30_15_angles.xlsx",
+      "nearest_neighbour": "NLResults/NearestNeighbour/P50/XLSX_Files/NX30_15_NN.xlsx",
+      "nearest_neighbour_2_5": "NLResults/NearestNeighbour/P50/XLSX_Files/NX30_15_NN_2_5.xlsx",
+      "tracing_candidates": [
+        "NLTracings/P50/15JulNX30_p50_stackup_corrected.DAT",
+        "NLTracings/P50/16JulNX30_p50_dwn_corrected.DAT"
+      ],
+      "missing_required": [],
+      "warnings": [
+        "multiple_tracing_candidates:2"
+      ],
+      "status": "complete_with_warnings"
+    },
+    {
+      "cell_id": "NX30_16",
+      "animal_id": "NX30",
+      "cell_label": "16",
+      "age_group": "P50",
+      "basic_analysis": "NLResults/BasicAnalyses/P50/NX30_16_p50_0aligned1.xls",
+      "sholl": "NLResults/Sholl/P50/NX30_16_Sholl2_5.xls",
+      "angles": "NLResults/Angles/P50/XLSX_Files/NX30_16_angles.xlsx",
+      "nearest_neighbour": "NLResults/NearestNeighbour/P50/XLSX_Files/NX30_16_NN.xlsx",
+      "nearest_neighbour_2_5": "NLResults/NearestNeighbour/P50/XLSX_Files/NX30_16_NN_2_5.xlsx",
+      "tracing_candidates": [
+        "NLTracings/P50/15JulNX30_p50_stackup_corrected.DAT",
+        "NLTracings/P50/16JulNX30_p50_dwn_corrected.DAT"
+      ],
+      "missing_required": [],
+      "warnings": [
+        "multiple_tracing_candidates:2"
+      ],
+      "status": "complete_with_warnings"
+    },
+    {
+      "cell_id": "NX34_1",
+      "animal_id": "NX34",
+      "cell_label": "1",
+      "age_group": "P50",
+      "basic_analysis": "NLResults/BasicAnalyses/P50/NX34_1_p50_0aligned1.xls",
+      "sholl": "NLResults/Sholl/P50/NX34_1_Sholl2_5.xls",
+      "angles": "NLResults/Angles/P50/XLSX_Files/NX34_1_angles.xlsx",
+      "nearest_neighbour": "NLResults/NearestNeighbour/P50/XLSX_Files/NX34_1_NN.xlsx",
+      "nearest_neighbour_2_5": "NLResults/NearestNeighbour/P50/XLSX_Files/NX34_1_NN_2_5.xlsx",
+      "tracing_candidates": [
+        "NLTracings/P50/12Jun2014_NX34_stack1_rep_p50_corrected.DAT",
+        "NLTracings/P50/12Jun2014_NX34_stack2_flat_corrected.DAT"
+      ],
+      "missing_required": [],
+      "warnings": [
+        "multiple_tracing_candidates:2"
+      ],
+      "status": "complete_with_warnings"
+    },
+    {
+      "cell_id": "NX34_2",
+      "animal_id": "NX34",
+      "cell_label": "2",
+      "age_group": "P50",
+      "basic_analysis": "NLResults/BasicAnalyses/P50/NX34_2_p50_0aligned1.xls",
+      "sholl": "NLResults/Sholl/P50/NX34_2_Sholl2_5.xls",
+      "angles": "NLResults/Angles/P50/XLSX_Files/NX34_2_angles.xlsx",
+      "nearest_neighbour": "NLResults/NearestNeighbour/P50/XLSX_Files/NX34_2_NN.xlsx",
+      "nearest_neighbour_2_5": "NLResults/NearestNeighbour/P50/XLSX_Files/NX34_2_NN_2_5.xlsx",
+      "tracing_candidates": [
+        "NLTracings/P50/12Jun2014_NX34_stack1_rep_p50_corrected.DAT",
+        "NLTracings/P50/12Jun2014_NX34_stack2_flat_corrected.DAT"
+      ],
+      "missing_required": [],
+      "warnings": [
+        "multiple_tracing_candidates:2"
+      ],
+      "status": "complete_with_warnings"
+    },
+    {
+      "cell_id": "NX44_28",
+      "animal_id": "NX44",
+      "cell_label": "28",
+      "age_group": "P50",
+      "basic_analysis": "NLResults/BasicAnalyses/P50/NX44_28_p50_0aligned1.xls",
+      "sholl": "NLResults/Sholl/P50/NX44_28_Sholl2_5_STree.xls",
+      "angles": "NLResults/Angles/P50/XLSX_Files/NX44_28_angles.xlsx",
+      "nearest_neighbour": "NLResults/NearestNeighbour/P50/XLSX_Files/NX44_28_NN.xlsx",
+      "nearest_neighbour_2_5": "NLResults/NearestNeighbour/P50/XLSX_Files/NX44_28_NN_2_5.xlsx",
+      "tracing_candidates": [
+        "NLTracings/P50/28Sep2014_NX44_p50_supertrees.DAT"
+      ],
+      "missing_required": [],
+      "warnings": [],
+      "status": "complete"
+    },
+    {
+      "cell_id": "NX45_low",
+      "animal_id": "NX45",
+      "cell_label": "low",
+      "age_group": "P50",
+      "basic_analysis": "NLResults/BasicAnalyses/P50/NX45_low_p50_0aligned_xx.xls",
+      "sholl": "NLResults/Sholl/P50/NX45_low_Sholl2_5.xls",
+      "angles": "NLResults/Angles/P50/XLSX_Files/NX45_low_angles.xlsx",
+      "nearest_neighbour": "NLResults/NearestNeighbour/P50/XLSX_Files/NX45low_NN.xlsx",
+      "nearest_neighbour_2_5": "NLResults/NearestNeighbour/P50/XLSX_Files/NX45low_NN_2_5.xlsx",
+      "tracing_candidates": [
+        "NLTracings/P50/10Oct2016_NX45_p50_lowercell_preanalysis.DAT",
+        "NLTracings/P50/10Oct2016_NX45_p50_uppercell_corrected.DAT"
+      ],
+      "missing_required": [],
+      "warnings": [
+        "multiple_tracing_candidates:2"
+      ],
+      "status": "complete_with_warnings"
+    },
+    {
+      "cell_id": "NX45_up",
+      "animal_id": "NX45",
+      "cell_label": "up",
+      "age_group": "P50",
+      "basic_analysis": "NLResults/BasicAnalyses/P50/NX45_up_p50_0aligned1.xls",
+      "sholl": "NLResults/Sholl/P50/NX45_up_Sholl2_5.xls",
+      "angles": "NLResults/Angles/P50/XLSX_Files/NX45_up_angles.xlsx",
+      "nearest_neighbour": "NLResults/NearestNeighbour/P50/XLSX_Files/NX45up_NN.xlsx",
+      "nearest_neighbour_2_5": "NLResults/NearestNeighbour/P50/XLSX_Files/NX45up_NN_2_5.xlsx",
+      "tracing_candidates": [
+        "NLTracings/P50/10Oct2016_NX45_p50_lowercell_preanalysis.DAT",
+        "NLTracings/P50/10Oct2016_NX45_p50_uppercell_corrected.DAT"
+      ],
+      "missing_required": [],
+      "warnings": [
+        "multiple_tracing_candidates:2"
+      ],
+      "status": "complete_with_warnings"
+    },
+    {
+      "cell_id": "NX48_8",
+      "animal_id": "NX48",
+      "cell_label": "8",
+      "age_group": "P50",
+      "basic_analysis": "NLResults/BasicAnalyses/P50/NX48_8_p50_0aligned1.xls",
+      "sholl": "NLResults/Sholl/P50/NX48_8_Sholl2_5.xls",
+      "angles": "NLResults/Angles/P50/XLSX_Files/NX48_8_angles.xlsx",
+      "nearest_neighbour": "NLResults/NearestNeighbour/P50/XLSX_Files/NX48_8_NN.xlsx",
+      "nearest_neighbour_2_5": "NLResults/NearestNeighbour/P50/XLSX_Files/NX48_8_NN_2_5.xlsx",
+      "tracing_candidates": [
+        "NLTracings/P50/8Oct2014_NX48_p50_stack2_VW_corrected.DAT"
+      ],
+      "missing_required": [],
+      "warnings": [],
+      "status": "complete"
+    },
+    {
+      "cell_id": "NX80_16",
+      "animal_id": "NX80",
+      "cell_label": "16",
+      "age_group": "P50",
+      "basic_analysis": "NLResults/BasicAnalyses/P50/NX80_16_p50_0aligned1.xls",
+      "sholl": "NLResults/Sholl/P50/NX80_16_Sholl2_5.xls",
+      "angles": "",
+      "nearest_neighbour": "",
+      "nearest_neighbour_2_5": "",
+      "tracing_candidates": [
+        "NLTracings/P50/16Nov2014_NX80_corrected.DAT",
+        "NLTracings/P50/23Nov2014_NX80_corrected.DAT"
+      ],
+      "missing_required": [
+        "angles",
+        "nearest_neighbour"
+      ],
+      "warnings": [
+        "multiple_tracing_candidates:2"
+      ],
+      "status": "incomplete"
+    },
+    {
+      "cell_id": "NX80_23",
+      "animal_id": "NX80",
+      "cell_label": "23",
+      "age_group": "P50",
+      "basic_analysis": "NLResults/BasicAnalyses/P50/NX80_23_p50_0aligned1.xls",
+      "sholl": "NLResults/Sholl/P50/NX80_23_Sholl2_5.xls",
+      "angles": "",
+      "nearest_neighbour": "",
+      "nearest_neighbour_2_5": "",
+      "tracing_candidates": [
+        "NLTracings/P50/16Nov2014_NX80_corrected.DAT",
+        "NLTracings/P50/23Nov2014_NX80_corrected.DAT"
+      ],
+      "missing_required": [
+        "angles",
+        "nearest_neighbour"
+      ],
+      "warnings": [
+        "multiple_tracing_candidates:2"
+      ],
+      "status": "incomplete"
+    },
+    {
+      "cell_id": "NX89_16",
+      "animal_id": "NX89",
+      "cell_label": "16",
+      "age_group": "P50",
+      "basic_analysis": "",
+      "sholl": "",
+      "angles": "NLResults/Angles/P50/XLSX_Files/NX89_16_angles.xlsx",
+      "nearest_neighbour": "NLResults/NearestNeighbour/P50/XLSX_Files/NX89_16_NN.xlsx",
+      "nearest_neighbour_2_5": "NLResults/NearestNeighbour/P50/XLSX_Files/NX89_16_NN_2_5.xlsx",
+      "tracing_candidates": [],
+      "missing_required": [
+        "basic_analysis",
+        "sholl"
+      ],
+      "warnings": [
+        "no_tracing_candidate"
+      ],
+      "status": "incomplete"
+    },
+    {
+      "cell_id": "NX89_23",
+      "animal_id": "NX89",
+      "cell_label": "23",
+      "age_group": "P50",
+      "basic_analysis": "",
+      "sholl": "",
+      "angles": "NLResults/Angles/P50/XLSX_Files/NX89_23_angles.xlsx",
+      "nearest_neighbour": "NLResults/NearestNeighbour/P50/XLSX_Files/NX89_23_NN.xlsx",
+      "nearest_neighbour_2_5": "NLResults/NearestNeighbour/P50/XLSX_Files/NX89_23_NN_2_5.xlsx",
+      "tracing_candidates": [],
+      "missing_required": [
+        "basic_analysis",
+        "sholl"
+      ],
+      "warnings": [
+        "no_tracing_candidate"
+      ],
+      "status": "incomplete"
+    },
+    {
+      "cell_id": "NX90_20",
+      "animal_id": "NX90",
+      "cell_label": "20",
+      "age_group": "P50",
+      "basic_analysis": "NLResults/BasicAnalyses/P50/NX90_20_p50_0aligned1.xls",
+      "sholl": "NLResults/Sholl/P50/NX90_20_Sholl2_5.xls",
+      "angles": "NLResults/Angles/P50/XLSX_Files/NX90_20_angles.xlsx",
+      "nearest_neighbour": "NLResults/NearestNeighbour/P50/XLSX_Files/NX90_20_NN.xlsx",
+      "nearest_neighbour_2_5": "NLResults/NearestNeighbour/P50/XLSX_Files/NX90_20_NN_2_5.xlsx",
+      "tracing_candidates": [
+        "NLTracings/P50/20Jun_NX90_TX2_1_p50_corrections.DAT",
+        "NLTracings/P50/22Apr2016_NX90_p50_stacks_all_OmeTif_corrected.DAT"
+      ],
+      "missing_required": [],
+      "warnings": [
+        "multiple_tracing_candidates:2"
+      ],
+      "status": "complete_with_warnings"
+    },
+    {
+      "cell_id": "NX90_22",
+      "animal_id": "NX90",
+      "cell_label": "22",
+      "age_group": "P50",
+      "basic_analysis": "NLResults/BasicAnalyses/P50/NX90_22_p50_0aligned1.xls",
+      "sholl": "NLResults/Sholl/P50/NX90_22_Sholl2_5.xls",
+      "angles": "NLResults/Angles/P50/XLSX_Files/NX90_22_angles.xlsx",
+      "nearest_neighbour": "NLResults/NearestNeighbour/P50/XLSX_Files/NX90_22_NN.xlsx",
+      "nearest_neighbour_2_5": "NLResults/NearestNeighbour/P50/XLSX_Files/NX90_22_NN_2_5.xlsx",
+      "tracing_candidates": [
+        "NLTracings/P50/20Jun_NX90_TX2_1_p50_corrections.DAT",
+        "NLTracings/P50/22Apr2016_NX90_p50_stacks_all_OmeTif_corrected.DAT"
+      ],
+      "missing_required": [],
+      "warnings": [
+        "multiple_tracing_candidates:2"
+      ],
+      "status": "complete_with_warnings"
+    }
+  ],
+  "unparsed_files": [],
+  "potential_name_mismatches": [
+    {
+      "cell_id": "NX13_1",
+      "age_group": "P10",
+      "missing_family": "basic_analysis",
+      "same_animal_candidates": [
+        "NX13_3"
+      ],
+      "note": "Possible filename mismatch; manual confirmation required."
+    },
+    {
+      "cell_id": "NX13_1",
+      "age_group": "P10",
+      "missing_family": "sholl",
+      "same_animal_candidates": [
+        "NX13_3"
+      ],
+      "note": "Possible filename mismatch; manual confirmation required."
+    },
+    {
+      "cell_id": "NX13_1",
+      "age_group": "P10",
+      "missing_family": "nearest_neighbour",
+      "same_animal_candidates": [
+        "NX13_3"
+      ],
+      "note": "Possible filename mismatch; manual confirmation required."
+    },
+    {
+      "cell_id": "NX13_3",
+      "age_group": "P10",
+      "missing_family": "angles",
+      "same_animal_candidates": [
+        "NX13_1"
+      ],
+      "note": "Possible filename mismatch; manual confirmation required."
+    },
+    {
+      "cell_id": "NX80_16",
+      "age_group": "P50",
+      "missing_family": "angles",
+      "same_animal_candidates": [
+        "NX89_16"
+      ],
+      "note": "Possible filename mismatch; manual confirmation required."
+    },
+    {
+      "cell_id": "NX80_16",
+      "age_group": "P50",
+      "missing_family": "nearest_neighbour",
+      "same_animal_candidates": [
+        "NX89_16"
+      ],
+      "note": "Possible filename mismatch; manual confirmation required."
+    },
+    {
+      "cell_id": "NX80_23",
+      "age_group": "P50",
+      "missing_family": "angles",
+      "same_animal_candidates": [
+        "NX89_23"
+      ],
+      "note": "Possible filename mismatch; manual confirmation required."
+    },
+    {
+      "cell_id": "NX80_23",
+      "age_group": "P50",
+      "missing_family": "nearest_neighbour",
+      "same_animal_candidates": [
+        "NX89_23"
+      ],
+      "note": "Possible filename mismatch; manual confirmation required."
+    },
+    {
+      "cell_id": "NX89_16",
+      "age_group": "P50",
+      "missing_family": "basic_analysis",
+      "same_animal_candidates": [
+        "NX80_16"
+      ],
+      "note": "Possible filename mismatch; manual confirmation required."
+    },
+    {
+      "cell_id": "NX89_16",
+      "age_group": "P50",
+      "missing_family": "sholl",
+      "same_animal_candidates": [
+        "NX80_16"
+      ],
+      "note": "Possible filename mismatch; manual confirmation required."
+    },
+    {
+      "cell_id": "NX89_23",
+      "age_group": "P50",
+      "missing_family": "basic_analysis",
+      "same_animal_candidates": [
+        "NX80_23"
+      ],
+      "note": "Possible filename mismatch; manual confirmation required."
+    },
+    {
+      "cell_id": "NX89_23",
+      "age_group": "P50",
+      "missing_family": "sholl",
+      "same_animal_candidates": [
+        "NX80_23"
+      ],
+      "note": "Possible filename mismatch; manual confirmation required."
+    }
+  ]
+}
