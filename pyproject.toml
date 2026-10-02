@@ -1,0 +1,49 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "opc-passive-cable"
+version = "0.3.0"
+description = "Reproducible passive-cable modelling of reconstructed oligodendrocyte precursor cells"
+readme = "README.md"
+requires-python = ">=3.11,<3.14"
+authors = [{name = "Mathieu Desroches and collaborators"}]
+dependencies = [
+  "numpy>=1.26",
+  "pandas>=2.1",
+  "scipy>=1.11",
+  "matplotlib>=3.8",
+  "openpyxl>=3.1",
+  "xlrd>=2.0",
+  "networkx>=3.2",
+  "PyYAML>=6.0",
+  "neuron>=8.2",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8",
+  "ruff>=0.6",
+  "jupyter>=1.0",
+  "nbconvert>=7.16",
+  "nbformat>=5.10",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+
+[tool.ruff]
+target-version = "py311"
+line-length = 100
+exclude = ["analysis/notebooks", "analysis/reference_outputs", "docs/report", "stages"]
+
+[project.scripts]
+opc-run-pipeline = "opc_passive.project_cli:main"
