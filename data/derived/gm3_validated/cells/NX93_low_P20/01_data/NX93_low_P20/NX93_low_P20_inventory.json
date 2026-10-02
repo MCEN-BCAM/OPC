@@ -1,0 +1,39 @@
+{
+  "cell_id": "NX93_low_P20",
+  "files": [
+    {
+      "path": "/Users/mdesroches/Library/CloudStorage/Dropbox/PROJECTS_SR_MD/BCAM/Projects/MARIA_KUKLEY_OLIGODENDROCYTES/MariaDATA/NLResults/Angles/P20/XLSX_Files/NX93_low_angles.xlsx",
+      "filename": "NX93_low_angles.xlsx",
+      "family": "angles",
+      "animal": "NX93",
+      "tracing": "low",
+      "age": "P20",
+      "cell_id": "NX93_low_P20",
+      "subtype": null
+    },
+    {
+      "path": "/Users/mdesroches/Library/CloudStorage/Dropbox/PROJECTS_SR_MD/BCAM/Projects/MARIA_KUKLEY_OLIGODENDROCYTES/MariaDATA/NLResults/BasicAnalyses/P20/NX93_low_p20_0aligned1.xls",
+      "filename": "NX93_low_p20_0aligned1.xls",
+      "family": "basic",
+      "animal": "NX93",
+      "tracing": "low",
+      "age": "P20",
+      "cell_id": "NX93_low_P20",
+      "subtype": null
+    },
+    {
+      "path": "/Users/mdesroches/Library/CloudStorage/Dropbox/PROJECTS_SR_MD/BCAM/Projects/MARIA_KUKLEY_OLIGODENDROCYTES/MariaDATA/NLResults/Sholl/P20/NX93_low_Sholl2_5.xls",
+      "filename": "NX93_low_Sholl2_5.xls",
+      "family": "sholl",
+      "animal": "NX93",
+      "tracing": "low",
+      "age": "P20",
+      "cell_id": "NX93_low_P20",
+      "subtype": null
+    }
+  ],
+  "warnings": [
+    "Missing standard nearest-neighbour workbook.",
+    "Missing 2.5-um nearest-neighbour workbook."
+  ]
+}
