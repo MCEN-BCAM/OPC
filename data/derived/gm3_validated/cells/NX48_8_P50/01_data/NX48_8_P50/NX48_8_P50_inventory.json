@@ -1,0 +1,66 @@
+{
+  "cell_id": "NX48_8_P50",
+  "files": [
+    {
+      "path": "/Users/mdesroches/Library/CloudStorage/Dropbox/PROJECTS_SR_MD/BCAM/Projects/MARIA_KUKLEY_OLIGODENDROCYTES/MariaDATA/NLResults/Angles/P50/XLSX_Files/NX48_8_angles.xlsx",
+      "filename": "NX48_8_angles.xlsx",
+      "family": "angles",
+      "animal": "NX48",
+      "tracing": "8",
+      "age": "P50",
+      "cell_id": "NX48_8_P50",
+      "subtype": null
+    },
+    {
+      "path": "/Users/mdesroches/Library/CloudStorage/Dropbox/PROJECTS_SR_MD/BCAM/Projects/MARIA_KUKLEY_OLIGODENDROCYTES/MariaDATA/NLResults/BasicAnalyses/P50/NX48_8_p50_0aligned1.xls",
+      "filename": "NX48_8_p50_0aligned1.xls",
+      "family": "basic",
+      "animal": "NX48",
+      "tracing": "8",
+      "age": "P50",
+      "cell_id": "NX48_8_P50",
+      "subtype": null
+    },
+    {
+      "path": "/Users/mdesroches/Library/CloudStorage/Dropbox/PROJECTS_SR_MD/BCAM/Projects/MARIA_KUKLEY_OLIGODENDROCYTES/MariaDATA/NLResults/NearestNeighbour/P50/XLSX_Files/NX48_8_NN_2_5.xlsx",
+      "filename": "NX48_8_NN_2_5.xlsx",
+      "family": "nearest_neighbour",
+      "animal": "NX48",
+      "tracing": "8",
+      "age": "P50",
+      "cell_id": "NX48_8_P50",
+      "subtype": "2_5"
+    },
+    {
+      "path": "/Users/mdesroches/Library/CloudStorage/Dropbox/PROJECTS_SR_MD/BCAM/Projects/MARIA_KUKLEY_OLIGODENDROCYTES/MariaDATA/NLResults/NearestNeighbour/P50/XLSX_Files/NX48_8_NN.xlsx",
+      "filename": "NX48_8_NN.xlsx",
+      "family": "nearest_neighbour",
+      "animal": "NX48",
+      "tracing": "8",
+      "age": "P50",
+      "cell_id": "NX48_8_P50",
+      "subtype": "standard"
+    },
+    {
+      "path": "/Users/mdesroches/Library/CloudStorage/Dropbox/PROJECTS_SR_MD/BCAM/Projects/MARIA_KUKLEY_OLIGODENDROCYTES/MariaDATA/NLResults/Sholl/P50/NX48_8_Sholl2_5.xls",
+      "filename": "NX48_8_Sholl2_5.xls",
+      "family": "sholl",
+      "animal": "NX48",
+      "tracing": "8",
+      "age": "P50",
+      "cell_id": "NX48_8_P50",
+      "subtype": null
+    },
+    {
+      "path": "/Users/mdesroches/Library/CloudStorage/Dropbox/PROJECTS_SR_MD/BCAM/Projects/MARIA_KUKLEY_OLIGODENDROCYTES/MariaDATA/NLResults/Sholl/Unused/NX48_8_Sholl2_5_STree.xls",
+      "filename": "NX48_8_Sholl2_5_STree.xls",
+      "family": "sholl",
+      "animal": "NX48",
+      "tracing": "8",
+      "age": "P50",
+      "cell_id": "NX48_8_P50",
+      "subtype": null
+    }
+  ],
+  "warnings": []
+}

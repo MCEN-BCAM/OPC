@@ -1,0 +1,1499 @@
+{
+  "node_import": {
+    "sheet": "Segment Points-Nodes",
+    "requested_sheet": "Segment Points-Nodes",
+    "header_row": 3,
+    "records": 212,
+    "skipped_rows": 0,
+    "fallback_used": false
+  },
+  "ending_import": {
+    "sheet": "Segment Points-Endings",
+    "requested_sheet": "Segment Points-Endings",
+    "header_row": 3,
+    "records": 270,
+    "skipped_rows": 4,
+    "fallback_used": false
+  },
+  "source_counts": {
+    "segments": 482,
+    "branch_segments": 212,
+    "terminal_segments": 270,
+    "node_endpoints": 212,
+    "terminal_endpoints": 270
+  },
+  "endpoint_assignment": {
+    "groups": [
+      {
+        "kind": "branch",
+        "tree": 1,
+        "order": 1,
+        "segments": 1,
+        "endpoints": 1,
+        "status": "matched",
+        "mean_cost": 0.07717796914236459,
+        "maximum_cost": 0.07717796914236459
+      },
+      {
+        "kind": "branch",
+        "tree": 3,
+        "order": 1,
+        "segments": 1,
+        "endpoints": 1,
+        "status": "matched",
+        "mean_cost": 0.05143900348814756,
+        "maximum_cost": 0.05143900348814756
+      },
+      {
+        "kind": "branch",
+        "tree": 3,
+        "order": 2,
+        "segments": 2,
+        "endpoints": 2,
+        "status": "matched",
+        "mean_cost": 0.09922852844037283,
+        "maximum_cost": 0.13047471101260083
+      },
+      {
+        "kind": "branch",
+        "tree": 3,
+        "order": 3,
+        "segments": 1,
+        "endpoints": 1,
+        "status": "matched",
+        "mean_cost": 0.04906504633357255,
+        "maximum_cost": 0.04906504633357255
+      },
+      {
+        "kind": "branch",
+        "tree": 3,
+        "order": 4,
+        "segments": 1,
+        "endpoints": 1,
+        "status": "matched",
+        "mean_cost": 0.15316533607775584,
+        "maximum_cost": 0.15316533607775584
+      },
+      {
+        "kind": "branch",
+        "tree": 5,
+        "order": 1,
+        "segments": 1,
+        "endpoints": 1,
+        "status": "matched",
+        "mean_cost": 0.13109704590373897,
+        "maximum_cost": 0.13109704590373897
+      },
+      {
+        "kind": "branch",
+        "tree": 5,
+        "order": 2,
+        "segments": 2,
+        "endpoints": 2,
+        "status": "matched",
+        "mean_cost": 0.057045866408104634,
+        "maximum_cost": 0.08418175849538477
+      },
+      {
+        "kind": "branch",
+        "tree": 5,
+        "order": 3,
+        "segments": 2,
+        "endpoints": 2,
+        "status": "matched",
+        "mean_cost": 0.0992830901244991,
+        "maximum_cost": 0.10932596860632568
+      },
+      {
+        "kind": "branch",
+        "tree": 5,
+        "order": 4,
+        "segments": 1,
+        "endpoints": 1,
+        "status": "matched",
+        "mean_cost": 0.02023725314207152,
+        "maximum_cost": 0.02023725314207152
+      },
+      {
+        "kind": "branch",
+        "tree": 5,
+        "order": 5,
+        "segments": 2,
+        "endpoints": 2,
+        "status": "matched",
+        "mean_cost": 0.08880134516155566,
+        "maximum_cost": 0.12258454324320547
+      },
+      {
+        "kind": "branch",
+        "tree": 8,
+        "order": 1,
+        "segments": 1,
+        "endpoints": 1,
+        "status": "matched",
+        "mean_cost": 0.06184436086047329,
+        "maximum_cost": 0.06184436086047329
+      },
+      {
+        "kind": "branch",
+        "tree": 8,
+        "order": 2,
+        "segments": 1,
+        "endpoints": 1,
+        "status": "matched",
+        "mean_cost": 0.03780548025602733,
+        "maximum_cost": 0.03780548025602733
+      },
+      {
+        "kind": "branch",
+        "tree": 9,
+        "order": 1,
+        "segments": 1,
+        "endpoints": 1,
+        "status": "matched",
+        "mean_cost": 0.012730588683605428,
+        "maximum_cost": 0.012730588683605428
+      },
+      {
+        "kind": "branch",
+        "tree": 9,
+        "order": 2,
+        "segments": 1,
+        "endpoints": 1,
+        "status": "matched",
+        "mean_cost": 0.07649320584390765,
+        "maximum_cost": 0.07649320584390765
+      },
+      {
+        "kind": "branch",
+        "tree": 9,
+        "order": 3,
+        "segments": 1,
+        "endpoints": 1,
+        "status": "matched",
+        "mean_cost": 0.12071286464940023,
+        "maximum_cost": 0.12071286464940023
+      },
+      {
+        "kind": "branch",
+        "tree": 9,
+        "order": 4,
+        "segments": 1,
+        "endpoints": 1,
+        "status": "matched",
+        "mean_cost": 0.017828903555338026,
+        "maximum_cost": 0.017828903555338026
+      },
+      {
+        "kind": "branch",
+        "tree": 10,
+        "order": 1,
+        "segments": 1,
+        "endpoints": 1,
+        "status": "matched",
+        "mean_cost": 0.03172872509458867,
+        "maximum_cost": 0.03172872509458867
+      },
+      {
+        "kind": "branch",
+        "tree": 10,
+        "order": 2,
+        "segments": 1,
+        "endpoints": 1,
+        "status": "matched",
+        "mean_cost": 0.10576680161630664,
+        "maximum_cost": 0.10576680161630664
+      },
+      {
+        "kind": "branch",
+        "tree": 10,
+        "order": 3,
+        "segments": 1,
+        "endpoints": 1,
+        "status": "matched",
+        "mean_cost": 0.021189106124203227,
+        "maximum_cost": 0.021189106124203227
+      },
+      {
+        "kind": "branch",
+        "tree": 10,
+        "order": 4,
+        "segments": 1,
+        "endpoints": 1,
+        "status": "matched",
+        "mean_cost": 0.0817775695807654,
+        "maximum_cost": 0.0817775695807654
+      },
+      {
+        "kind": "branch",
+        "tree": 11,
+        "order": 1,
+        "segments": 1,
+        "endpoints": 1,
+        "status": "matched",
+        "mean_cost": 0.17178813926601344,
+        "maximum_cost": 0.17178813926601344
+      },
+      {
+        "kind": "branch",
+        "tree": 11,
+        "order": 2,
+        "segments": 2,
+        "endpoints": 2,
+        "status": "matched",
+        "mean_cost": 0.08802515391119772,
+        "maximum_cost": 0.1177989470659068
+      },
+      {
+        "kind": "branch",
+        "tree": 11,
+        "order": 3,
+        "segments": 3,
+        "endpoints": 3,
+        "status": "matched",
+        "mean_cost": 0.06660236638865764,
+        "maximum_cost": 0.0877155773454919
+      },
+      {
+        "kind": "branch",
+        "tree": 11,
+        "order": 4,
+        "segments": 3,
+        "endpoints": 3,
+        "status": "matched",
+        "mean_cost": 0.07926072779799262,
+        "maximum_cost": 0.1479290440437059
+      },
+      {
+        "kind": "branch",
+        "tree": 11,
+        "order": 5,
+        "segments": 2,
+        "endpoints": 2,
+        "status": "matched",
+        "mean_cost": 0.05566718128429305,
+        "maximum_cost": 0.0672286092537789
+      },
+      {
+        "kind": "branch",
+        "tree": 11,
+        "order": 6,
+        "segments": 2,
+        "endpoints": 2,
+        "status": "matched",
+        "mean_cost": 0.05417152189440623,
+        "maximum_cost": 0.0818985350391526
+      },
+      {
+        "kind": "branch",
+        "tree": 11,
+        "order": 7,
+        "segments": 3,
+        "endpoints": 3,
+        "status": "matched",
+        "mean_cost": 0.07962438288169939,
+        "maximum_cost": 0.10537708938391904
+      },
+      {
+        "kind": "branch",
+        "tree": 11,
+        "order": 8,
+        "segments": 3,
+        "endpoints": 3,
+        "status": "matched",
+        "mean_cost": 0.072946474073449,
+        "maximum_cost": 0.10449419393038567
+      },
+      {
+        "kind": "branch",
+        "tree": 11,
+        "order": 9,
+        "segments": 1,
+        "endpoints": 1,
+        "status": "matched",
+        "mean_cost": 0.09523410128666984,
+        "maximum_cost": 0.09523410128666984
+      },
+      {
+        "kind": "branch",
+        "tree": 11,
+        "order": 10,
+        "segments": 1,
+        "endpoints": 1,
+        "status": "matched",
+        "mean_cost": 0.025036728779598914,
+        "maximum_cost": 0.025036728779598914
+      },
+      {
+        "kind": "branch",
+        "tree": 11,
+        "order": 11,
+        "segments": 1,
+        "endpoints": 1,
+        "status": "matched",
+        "mean_cost": 0.030876926028262527,
+        "maximum_cost": 0.030876926028262527
+      },
+      {
+        "kind": "branch",
+        "tree": 11,
+        "order": 12,
+        "segments": 1,
+        "endpoints": 1,
+        "status": "matched",
+        "mean_cost": 0.03864088834484279,
+        "maximum_cost": 0.03864088834484279
+      },
+      {
+        "kind": "branch",
+        "tree": 11,
+        "order": 13,
+        "segments": 1,
+        "endpoints": 1,
+        "status": "matched",
+        "mean_cost": 0.024441855302788595,
+        "maximum_cost": 0.024441855302788595
+      },
+      {
+        "kind": "branch",
+        "tree": 11,
+        "order": 14,
+        "segments": 2,
+        "endpoints": 2,
+        "status": "matched",
+        "mean_cost": 0.08710786332295019,
+        "maximum_cost": 0.12780236564481695
+      },
+      {
+        "kind": "branch",
+        "tree": 11,
+        "order": 15,
+        "segments": 1,
+        "endpoints": 1,
+        "status": "matched",
+        "mean_cost": 0.1235483612516988,
+        "maximum_cost": 0.1235483612516988
+      },
+      {
+        "kind": "branch",
+        "tree": 11,
+        "order": 16,
+        "segments": 1,
+        "endpoints": 1,
+        "status": "matched",
+        "mean_cost": 0.13254425404906156,
+        "maximum_cost": 0.13254425404906156
+      },
+      {
+        "kind": "branch",
+        "tree": 13,
+        "order": 1,
+        "segments": 1,
+        "endpoints": 1,
+        "status": "matched",
+        "mean_cost": 0.027748914784109648,
+        "maximum_cost": 0.027748914784109648
+      },
+      {
+        "kind": "branch",
+        "tree": 13,
+        "order": 2,
+        "segments": 1,
+        "endpoints": 1,
+        "status": "matched",
+        "mean_cost": 0.06196682291984941,
+        "maximum_cost": 0.06196682291984941
+      },
+      {
+        "kind": "branch",
+        "tree": 15,
+        "order": 1,
+        "segments": 1,
+        "endpoints": 1,
+        "status": "matched",
+        "mean_cost": 0.0931997419969747,
+        "maximum_cost": 0.0931997419969747
+      },
+      {
+        "kind": "branch",
+        "tree": 15,
+        "order": 2,
+        "segments": 2,
+        "endpoints": 2,
+        "status": "matched",
+        "mean_cost": 0.0557688482113703,
+        "maximum_cost": 0.07563572963444029
+      },
+      {
+        "kind": "branch",
+        "tree": 15,
+        "order": 3,
+        "segments": 4,
+        "endpoints": 4,
+        "status": "matched",
+        "mean_cost": 0.05568050846476791,
+        "maximum_cost": 0.10156710375955627
+      },
+      {
+        "kind": "branch",
+        "tree": 15,
+        "order": 4,
+        "segments": 5,
+        "endpoints": 5,
+        "status": "matched",
+        "mean_cost": 0.10806667061820355,
+        "maximum_cost": 0.1854728354690716
+      },
+      {
+        "kind": "branch",
+        "tree": 15,
+        "order": 5,
+        "segments": 6,
+        "endpoints": 6,
+        "status": "matched",
+        "mean_cost": 0.08099254460490087,
+        "maximum_cost": 0.14919396537257676
+      },
+      {
+        "kind": "branch",
+        "tree": 15,
+        "order": 6,
+        "segments": 6,
+        "endpoints": 6,
+        "status": "matched",
+        "mean_cost": 0.12429272118668105,
+        "maximum_cost": 0.22712100940925561
+      },
+      {
+        "kind": "branch",
+        "tree": 15,
+        "order": 7,
+        "segments": 7,
+        "endpoints": 7,
+        "status": "matched",
+        "mean_cost": 0.08738578005284817,
+        "maximum_cost": 0.1903891981413754
+      },
+      {
+        "kind": "branch",
+        "tree": 15,
+        "order": 8,
+        "segments": 7,
+        "endpoints": 7,
+        "status": "matched",
+        "mean_cost": 0.08004398257619492,
+        "maximum_cost": 0.22033300190919836
+      },
+      {
+        "kind": "branch",
+        "tree": 15,
+        "order": 9,
+        "segments": 10,
+        "endpoints": 10,
+        "status": "matched",
+        "mean_cost": 0.049611597302291414,
+        "maximum_cost": 0.08789928725922568
+      },
+      {
+        "kind": "branch",
+        "tree": 15,
+        "order": 10,
+        "segments": 13,
+        "endpoints": 13,
+        "status": "matched",
+        "mean_cost": 0.05684776672344597,
+        "maximum_cost": 0.09880332963826426
+      },
+      {
+        "kind": "branch",
+        "tree": 15,
+        "order": 11,
+        "segments": 13,
+        "endpoints": 13,
+        "status": "matched",
+        "mean_cost": 0.08594474882871575,
+        "maximum_cost": 0.21049366800165173
+      },
+      {
+        "kind": "branch",
+        "tree": 15,
+        "order": 12,
+        "segments": 11,
+        "endpoints": 11,
+        "status": "matched",
+        "mean_cost": 0.07660876791769465,
+        "maximum_cost": 0.13415947972219888
+      },
+      {
+        "kind": "branch",
+        "tree": 15,
+        "order": 13,
+        "segments": 9,
+        "endpoints": 9,
+        "status": "matched",
+        "mean_cost": 0.09230033140420169,
+        "maximum_cost": 0.20524064456024826
+      },
+      {
+        "kind": "branch",
+        "tree": 15,
+        "order": 14,
+        "segments": 9,
+        "endpoints": 9,
+        "status": "matched",
+        "mean_cost": 0.0881052560072985,
+        "maximum_cost": 0.1915212368024229
+      },
+      {
+        "kind": "branch",
+        "tree": 15,
+        "order": 15,
+        "segments": 8,
+        "endpoints": 8,
+        "status": "matched",
+        "mean_cost": 0.08512387013434264,
+        "maximum_cost": 0.16782894523306935
+      },
+      {
+        "kind": "branch",
+        "tree": 15,
+        "order": 16,
+        "segments": 5,
+        "endpoints": 5,
+        "status": "matched",
+        "mean_cost": 0.10244898746229203,
+        "maximum_cost": 0.24406707682532333
+      },
+      {
+        "kind": "branch",
+        "tree": 16,
+        "order": 1,
+        "segments": 1,
+        "endpoints": 1,
+        "status": "matched",
+        "mean_cost": 0.02286691457827901,
+        "maximum_cost": 0.02286691457827901
+      },
+      {
+        "kind": "branch",
+        "tree": 16,
+        "order": 2,
+        "segments": 2,
+        "endpoints": 2,
+        "status": "matched",
+        "mean_cost": 0.04759855851675919,
+        "maximum_cost": 0.05106886003075374
+      },
+      {
+        "kind": "branch",
+        "tree": 16,
+        "order": 3,
+        "segments": 2,
+        "endpoints": 2,
+        "status": "matched",
+        "mean_cost": 0.15275171765750273,
+        "maximum_cost": 0.25041870584333925
+      },
+      {
+        "kind": "branch",
+        "tree": 17,
+        "order": 1,
+        "segments": 1,
+        "endpoints": 1,
+        "status": "matched",
+        "mean_cost": 0.03735406948802902,
+        "maximum_cost": 0.03735406948802902
+      },
+      {
+        "kind": "branch",
+        "tree": 17,
+        "order": 2,
+        "segments": 2,
+        "endpoints": 2,
+        "status": "matched",
+        "mean_cost": 0.05937031655075849,
+        "maximum_cost": 0.11048342137378869
+      },
+      {
+        "kind": "branch",
+        "tree": 17,
+        "order": 3,
+        "segments": 4,
+        "endpoints": 4,
+        "status": "matched",
+        "mean_cost": 0.0695747063164504,
+        "maximum_cost": 0.12212937767184626
+      },
+      {
+        "kind": "branch",
+        "tree": 17,
+        "order": 4,
+        "segments": 4,
+        "endpoints": 4,
+        "status": "matched",
+        "mean_cost": 0.03908341552882626,
+        "maximum_cost": 0.07694274642071965
+      },
+      {
+        "kind": "branch",
+        "tree": 17,
+        "order": 5,
+        "segments": 6,
+        "endpoints": 6,
+        "status": "matched",
+        "mean_cost": 0.07958978688925424,
+        "maximum_cost": 0.23888644267543127
+      },
+      {
+        "kind": "branch",
+        "tree": 17,
+        "order": 6,
+        "segments": 7,
+        "endpoints": 7,
+        "status": "matched",
+        "mean_cost": 0.056178367957389674,
+        "maximum_cost": 0.13108437551899804
+      },
+      {
+        "kind": "branch",
+        "tree": 17,
+        "order": 7,
+        "segments": 6,
+        "endpoints": 6,
+        "status": "matched",
+        "mean_cost": 0.12269066189057103,
+        "maximum_cost": 0.19139399518563954
+      },
+      {
+        "kind": "branch",
+        "tree": 17,
+        "order": 8,
+        "segments": 2,
+        "endpoints": 2,
+        "status": "matched",
+        "mean_cost": 0.09033510013797144,
+        "maximum_cost": 0.10159556342469725
+      },
+      {
+        "kind": "branch",
+        "tree": 17,
+        "order": 9,
+        "segments": 1,
+        "endpoints": 1,
+        "status": "matched",
+        "mean_cost": 0.10515060599092885,
+        "maximum_cost": 0.10515060599092885
+      },
+      {
+        "kind": "branch",
+        "tree": 17,
+        "order": 10,
+        "segments": 1,
+        "endpoints": 1,
+        "status": "matched",
+        "mean_cost": 0.10377442817751284,
+        "maximum_cost": 0.10377442817751284
+      },
+      {
+        "kind": "branch",
+        "tree": 18,
+        "order": 1,
+        "segments": 1,
+        "endpoints": 1,
+        "status": "matched",
+        "mean_cost": 0.03287244016146877,
+        "maximum_cost": 0.03287244016146877
+      },
+      {
+        "kind": "branch",
+        "tree": 18,
+        "order": 2,
+        "segments": 1,
+        "endpoints": 1,
+        "status": "matched",
+        "mean_cost": 0.08128129039857179,
+        "maximum_cost": 0.08128129039857179
+      },
+      {
+        "kind": "branch",
+        "tree": 18,
+        "order": 3,
+        "segments": 1,
+        "endpoints": 1,
+        "status": "matched",
+        "mean_cost": 0.04080446535942511,
+        "maximum_cost": 0.04080446535942511
+      },
+      {
+        "kind": "terminal",
+        "tree": 1,
+        "order": 2,
+        "segments": 2,
+        "endpoints": 2,
+        "status": "matched",
+        "mean_cost": 0.06586643051511701,
+        "maximum_cost": 0.1062249135015989
+      },
+      {
+        "kind": "terminal",
+        "tree": 2,
+        "order": 1,
+        "segments": 1,
+        "endpoints": 1,
+        "status": "matched",
+        "mean_cost": 0.02624583829643353,
+        "maximum_cost": 0.02624583829643353
+      },
+      {
+        "kind": "terminal",
+        "tree": 3,
+        "order": 2,
+        "segments": 1,
+        "endpoints": 1,
+        "status": "matched",
+        "mean_cost": 0.0661562018937103,
+        "maximum_cost": 0.0661562018937103
+      },
+      {
+        "kind": "terminal",
+        "tree": 3,
+        "order": 3,
+        "segments": 3,
+        "endpoints": 3,
+        "status": "matched",
+        "mean_cost": 0.13045982658501915,
+        "maximum_cost": 0.21858254959645437
+      },
+      {
+        "kind": "terminal",
+        "tree": 3,
+        "order": 4,
+        "segments": 1,
+        "endpoints": 1,
+        "status": "matched",
+        "mean_cost": 0.16579286308060273,
+        "maximum_cost": 0.16579286308060273
+      },
+      {
+        "kind": "terminal",
+        "tree": 3,
+        "order": 5,
+        "segments": 2,
+        "endpoints": 2,
+        "status": "matched",
+        "mean_cost": 0.05884598462015468,
+        "maximum_cost": 0.06784186223436815
+      },
+      {
+        "kind": "terminal",
+        "tree": 4,
+        "order": 1,
+        "segments": 1,
+        "endpoints": 1,
+        "status": "matched",
+        "mean_cost": 0.033671663006783405,
+        "maximum_cost": 0.033671663006783405
+      },
+      {
+        "kind": "terminal",
+        "tree": 5,
+        "order": 3,
+        "segments": 7,
+        "endpoints": 7,
+        "status": "matched",
+        "mean_cost": 0.07081177109752301,
+        "maximum_cost": 0.10527350398119625
+      },
+      {
+        "kind": "terminal",
+        "tree": 5,
+        "order": 4,
+        "segments": 4,
+        "endpoints": 4,
+        "status": "matched",
+        "mean_cost": 0.08011194217610847,
+        "maximum_cost": 0.1250082939801349
+      },
+      {
+        "kind": "terminal",
+        "tree": 5,
+        "order": 5,
+        "segments": 1,
+        "endpoints": 1,
+        "status": "matched",
+        "mean_cost": 0.04795671915700908,
+        "maximum_cost": 0.04795671915700908
+      },
+      {
+        "kind": "terminal",
+        "tree": 5,
+        "order": 6,
+        "segments": 4,
+        "endpoints": 4,
+        "status": "matched",
+        "mean_cost": 0.09358289149787032,
+        "maximum_cost": 0.2438600000000137
+      },
+      {
+        "kind": "terminal",
+        "tree": 6,
+        "order": 1,
+        "segments": 1,
+        "endpoints": 1,
+        "status": "matched",
+        "mean_cost": 0.0073475052382667655,
+        "maximum_cost": 0.0073475052382667655
+      },
+      {
+        "kind": "terminal",
+        "tree": 7,
+        "order": 1,
+        "segments": 1,
+        "endpoints": 1,
+        "status": "matched",
+        "mean_cost": 0.18207693578218967,
+        "maximum_cost": 0.18207693578218967
+      },
+      {
+        "kind": "terminal",
+        "tree": 8,
+        "order": 2,
+        "segments": 1,
+        "endpoints": 1,
+        "status": "matched",
+        "mean_cost": 0.055628198394203736,
+        "maximum_cost": 0.055628198394203736
+      },
+      {
+        "kind": "terminal",
+        "tree": 8,
+        "order": 3,
+        "segments": 2,
+        "endpoints": 2,
+        "status": "matched",
+        "mean_cost": 0.053086446754545026,
+        "maximum_cost": 0.059355014051551344
+      },
+      {
+        "kind": "terminal",
+        "tree": 9,
+        "order": 2,
+        "segments": 1,
+        "endpoints": 1,
+        "status": "matched",
+        "mean_cost": 0.015048637632849488,
+        "maximum_cost": 0.015048637632849488
+      },
+      {
+        "kind": "terminal",
+        "tree": 9,
+        "order": 3,
+        "segments": 1,
+        "endpoints": 1,
+        "status": "matched",
+        "mean_cost": 0.12602732630783167,
+        "maximum_cost": 0.12602732630783167
+      },
+      {
+        "kind": "terminal",
+        "tree": 9,
+        "order": 4,
+        "segments": 1,
+        "endpoints": 1,
+        "status": "matched",
+        "mean_cost": 0.14914977752514447,
+        "maximum_cost": 0.14914977752514447
+      },
+      {
+        "kind": "terminal",
+        "tree": 9,
+        "order": 5,
+        "segments": 3,
+        "endpoints": 3,
+        "status": "matched",
+        "mean_cost": 0.03968958076094648,
+        "maximum_cost": 0.06678227238698631
+      },
+      {
+        "kind": "terminal",
+        "tree": 10,
+        "order": 2,
+        "segments": 1,
+        "endpoints": 1,
+        "status": "matched",
+        "mean_cost": 0.09093133651340357,
+        "maximum_cost": 0.09093133651340357
+      },
+      {
+        "kind": "terminal",
+        "tree": 10,
+        "order": 3,
+        "segments": 1,
+        "endpoints": 1,
+        "status": "matched",
+        "mean_cost": 0.05525091081266162,
+        "maximum_cost": 0.05525091081266162
+      },
+      {
+        "kind": "terminal",
+        "tree": 10,
+        "order": 4,
+        "segments": 2,
+        "endpoints": 2,
+        "status": "matched",
+        "mean_cost": 0.10765480594036272,
+        "maximum_cost": 0.18857602203144352
+      },
+      {
+        "kind": "terminal",
+        "tree": 10,
+        "order": 5,
+        "segments": 2,
+        "endpoints": 2,
+        "status": "matched",
+        "mean_cost": 0.04837587893404656,
+        "maximum_cost": 0.05290615830960697
+      },
+      {
+        "kind": "terminal",
+        "tree": 11,
+        "order": 3,
+        "segments": 1,
+        "endpoints": 1,
+        "status": "matched",
+        "mean_cost": 0.017873844033104318,
+        "maximum_cost": 0.017873844033104318
+      },
+      {
+        "kind": "terminal",
+        "tree": 11,
+        "order": 4,
+        "segments": 4,
+        "endpoints": 4,
+        "status": "matched",
+        "mean_cost": 0.05605623050594253,
+        "maximum_cost": 0.08601445406345248
+      },
+      {
+        "kind": "terminal",
+        "tree": 11,
+        "order": 5,
+        "segments": 4,
+        "endpoints": 4,
+        "status": "matched",
+        "mean_cost": 0.04380390618053938,
+        "maximum_cost": 0.08796393835669684
+      },
+      {
+        "kind": "terminal",
+        "tree": 11,
+        "order": 6,
+        "segments": 2,
+        "endpoints": 2,
+        "status": "matched",
+        "mean_cost": 0.12404508011019882,
+        "maximum_cost": 0.18810892526396772
+      },
+      {
+        "kind": "terminal",
+        "tree": 11,
+        "order": 7,
+        "segments": 1,
+        "endpoints": 1,
+        "status": "matched",
+        "mean_cost": 0.10167218567703507,
+        "maximum_cost": 0.10167218567703507
+      },
+      {
+        "kind": "terminal",
+        "tree": 11,
+        "order": 8,
+        "segments": 3,
+        "endpoints": 3,
+        "status": "matched",
+        "mean_cost": 0.0747036328954797,
+        "maximum_cost": 0.1051275437684384
+      },
+      {
+        "kind": "terminal",
+        "tree": 11,
+        "order": 9,
+        "segments": 5,
+        "endpoints": 5,
+        "status": "matched",
+        "mean_cost": 0.12123427949217372,
+        "maximum_cost": 0.1617133774775105
+      },
+      {
+        "kind": "terminal",
+        "tree": 11,
+        "order": 10,
+        "segments": 1,
+        "endpoints": 1,
+        "status": "matched",
+        "mean_cost": 0.03299649115810266,
+        "maximum_cost": 0.03299649115810266
+      },
+      {
+        "kind": "terminal",
+        "tree": 11,
+        "order": 11,
+        "segments": 1,
+        "endpoints": 1,
+        "status": "matched",
+        "mean_cost": 0.05996784642916494,
+        "maximum_cost": 0.05996784642916494
+      },
+      {
+        "kind": "terminal",
+        "tree": 11,
+        "order": 12,
+        "segments": 1,
+        "endpoints": 1,
+        "status": "matched",
+        "mean_cost": 0.08420252950594725,
+        "maximum_cost": 0.08420252950594725
+      },
+      {
+        "kind": "terminal",
+        "tree": 11,
+        "order": 13,
+        "segments": 1,
+        "endpoints": 1,
+        "status": "matched",
+        "mean_cost": 0.06724402219149743,
+        "maximum_cost": 0.06724402219149743
+      },
+      {
+        "kind": "terminal",
+        "tree": 11,
+        "order": 14,
+        "segments": 1,
+        "endpoints": 1,
+        "status": "matched",
+        "mean_cost": 0.07255949443024245,
+        "maximum_cost": 0.07255949443024245
+      },
+      {
+        "kind": "terminal",
+        "tree": 11,
+        "order": 15,
+        "segments": 4,
+        "endpoints": 4,
+        "status": "matched",
+        "mean_cost": 0.06878460576991455,
+        "maximum_cost": 0.11445457253349867
+      },
+      {
+        "kind": "terminal",
+        "tree": 11,
+        "order": 16,
+        "segments": 1,
+        "endpoints": 1,
+        "status": "matched",
+        "mean_cost": 0.07268167581832446,
+        "maximum_cost": 0.07268167581832446
+      },
+      {
+        "kind": "terminal",
+        "tree": 11,
+        "order": 17,
+        "segments": 2,
+        "endpoints": 2,
+        "status": "matched",
+        "mean_cost": 0.06304042525046763,
+        "maximum_cost": 0.07485388083174897
+      },
+      {
+        "kind": "terminal",
+        "tree": 12,
+        "order": 1,
+        "segments": 1,
+        "endpoints": 1,
+        "status": "matched",
+        "mean_cost": 0.1069910954026734,
+        "maximum_cost": 0.1069910954026734
+      },
+      {
+        "kind": "terminal",
+        "tree": 13,
+        "order": 2,
+        "segments": 1,
+        "endpoints": 1,
+        "status": "matched",
+        "mean_cost": 0.04299370394638568,
+        "maximum_cost": 0.04299370394638568
+      },
+      {
+        "kind": "terminal",
+        "tree": 13,
+        "order": 3,
+        "segments": 2,
+        "endpoints": 2,
+        "status": "matched",
+        "mean_cost": 0.06751832584407044,
+        "maximum_cost": 0.09863193492471108
+      },
+      {
+        "kind": "terminal",
+        "tree": 14,
+        "order": 1,
+        "segments": 1,
+        "endpoints": 1,
+        "status": "matched",
+        "mean_cost": 0.09271053417312178,
+        "maximum_cost": 0.09271053417312178
+      },
+      {
+        "kind": "terminal",
+        "tree": 15,
+        "order": 3,
+        "segments": 1,
+        "endpoints": 1,
+        "status": "matched",
+        "mean_cost": 0.02716229941538236,
+        "maximum_cost": 0.02716229941538236
+      },
+      {
+        "kind": "terminal",
+        "tree": 15,
+        "order": 4,
+        "segments": 3,
+        "endpoints": 3,
+        "status": "matched",
+        "mean_cost": 0.05840986108471354,
+        "maximum_cost": 0.06192862197481335
+      },
+      {
+        "kind": "terminal",
+        "tree": 15,
+        "order": 5,
+        "segments": 4,
+        "endpoints": 4,
+        "status": "matched",
+        "mean_cost": 0.05477731785239784,
+        "maximum_cost": 0.07006883965159479
+      },
+      {
+        "kind": "terminal",
+        "tree": 15,
+        "order": 6,
+        "segments": 6,
+        "endpoints": 6,
+        "status": "matched",
+        "mean_cost": 0.08449631154864613,
+        "maximum_cost": 0.12600261465664944
+      },
+      {
+        "kind": "terminal",
+        "tree": 15,
+        "order": 7,
+        "segments": 6,
+        "endpoints": 6,
+        "status": "matched",
+        "mean_cost": 0.08329938288406798,
+        "maximum_cost": 0.1482051587479341
+      },
+      {
+        "kind": "terminal",
+        "tree": 15,
+        "order": 8,
+        "segments": 8,
+        "endpoints": 8,
+        "status": "matched",
+        "mean_cost": 0.08540747956830998,
+        "maximum_cost": 0.17170654362662408
+      },
+      {
+        "kind": "terminal",
+        "tree": 15,
+        "order": 9,
+        "segments": 6,
+        "endpoints": 6,
+        "status": "matched",
+        "mean_cost": 0.11661321227791273,
+        "maximum_cost": 0.2581983126875367
+      },
+      {
+        "kind": "terminal",
+        "tree": 15,
+        "order": 10,
+        "segments": 10,
+        "endpoints": 10,
+        "status": "matched",
+        "mean_cost": 0.09573451217671969,
+        "maximum_cost": 0.17311704352752927
+      },
+      {
+        "kind": "terminal",
+        "tree": 15,
+        "order": 11,
+        "segments": 14,
+        "endpoints": 14,
+        "status": "matched",
+        "mean_cost": 0.11008877653177329,
+        "maximum_cost": 0.2697964440535844
+      },
+      {
+        "kind": "terminal",
+        "tree": 15,
+        "order": 12,
+        "segments": 17,
+        "endpoints": 17,
+        "status": "matched",
+        "mean_cost": 0.09587399401099284,
+        "maximum_cost": 0.24125856917658278
+      },
+      {
+        "kind": "terminal",
+        "tree": 15,
+        "order": 13,
+        "segments": 16,
+        "endpoints": 16,
+        "status": "matched",
+        "mean_cost": 0.0735169490917432,
+        "maximum_cost": 0.15291281647046623
+      },
+      {
+        "kind": "terminal",
+        "tree": 15,
+        "order": 14,
+        "segments": 10,
+        "endpoints": 10,
+        "status": "matched",
+        "mean_cost": 0.10299148206940553,
+        "maximum_cost": 0.1735700022995605
+      },
+      {
+        "kind": "terminal",
+        "tree": 15,
+        "order": 15,
+        "segments": 10,
+        "endpoints": 10,
+        "status": "matched",
+        "mean_cost": 0.0966777292001997,
+        "maximum_cost": 0.2745960134636938
+      },
+      {
+        "kind": "terminal",
+        "tree": 15,
+        "order": 16,
+        "segments": 13,
+        "endpoints": 13,
+        "status": "matched",
+        "mean_cost": 0.07270700989810255,
+        "maximum_cost": 0.13920417715514957
+      },
+      {
+        "kind": "terminal",
+        "tree": 15,
+        "order": 17,
+        "segments": 12,
+        "endpoints": 12,
+        "status": "matched",
+        "mean_cost": 0.08615147770222421,
+        "maximum_cost": 0.13707177791268094
+      },
+      {
+        "kind": "terminal",
+        "tree": 16,
+        "order": 3,
+        "segments": 2,
+        "endpoints": 2,
+        "status": "matched",
+        "mean_cost": 0.10185861265866705,
+        "maximum_cost": 0.15393935096693515
+      },
+      {
+        "kind": "terminal",
+        "tree": 16,
+        "order": 4,
+        "segments": 4,
+        "endpoints": 4,
+        "status": "matched",
+        "mean_cost": 0.1035454363346387,
+        "maximum_cost": 0.1942697088149363
+      },
+      {
+        "kind": "terminal",
+        "tree": 17,
+        "order": 3,
+        "segments": 1,
+        "endpoints": 1,
+        "status": "matched",
+        "mean_cost": 0.12140829618242696,
+        "maximum_cost": 0.12140829618242696
+      },
+      {
+        "kind": "terminal",
+        "tree": 17,
+        "order": 4,
+        "segments": 5,
+        "endpoints": 5,
+        "status": "matched",
+        "mean_cost": 0.0482877137215098,
+        "maximum_cost": 0.06760895995232385
+      },
+      {
+        "kind": "terminal",
+        "tree": 17,
+        "order": 5,
+        "segments": 4,
+        "endpoints": 4,
+        "status": "matched",
+        "mean_cost": 0.07527336381182105,
+        "maximum_cost": 0.108581830760719
+      },
+      {
+        "kind": "terminal",
+        "tree": 17,
+        "order": 6,
+        "segments": 6,
+        "endpoints": 6,
+        "status": "matched",
+        "mean_cost": 0.07900889452623534,
+        "maximum_cost": 0.1316703543866068
+      },
+      {
+        "kind": "terminal",
+        "tree": 17,
+        "order": 7,
+        "segments": 9,
+        "endpoints": 9,
+        "status": "matched",
+        "mean_cost": 0.0866022682791671,
+        "maximum_cost": 0.12850126213782284
+      },
+      {
+        "kind": "terminal",
+        "tree": 17,
+        "order": 8,
+        "segments": 10,
+        "endpoints": 10,
+        "status": "matched",
+        "mean_cost": 0.11024719755019396,
+        "maximum_cost": 0.41407557636141107
+      },
+      {
+        "kind": "terminal",
+        "tree": 17,
+        "order": 9,
+        "segments": 3,
+        "endpoints": 3,
+        "status": "matched",
+        "mean_cost": 0.07065801827633994,
+        "maximum_cost": 0.13195073455057085
+      },
+      {
+        "kind": "terminal",
+        "tree": 17,
+        "order": 10,
+        "segments": 1,
+        "endpoints": 1,
+        "status": "matched",
+        "mean_cost": 0.039300149272664536,
+        "maximum_cost": 0.039300149272664536
+      },
+      {
+        "kind": "terminal",
+        "tree": 17,
+        "order": 11,
+        "segments": 2,
+        "endpoints": 2,
+        "status": "matched",
+        "mean_cost": 0.10439568098134552,
+        "maximum_cost": 0.12704526726939352
+      },
+      {
+        "kind": "terminal",
+        "tree": 18,
+        "order": 2,
+        "segments": 1,
+        "endpoints": 1,
+        "status": "matched",
+        "mean_cost": 0.07723073370827496,
+        "maximum_cost": 0.07723073370827496
+      },
+      {
+        "kind": "terminal",
+        "tree": 18,
+        "order": 3,
+        "segments": 2,
+        "endpoints": 2,
+        "status": "matched",
+        "mean_cost": 0.07326063959594999,
+        "maximum_cost": 0.09234448352136156
+      },
+      {
+        "kind": "terminal",
+        "tree": 18,
+        "order": 4,
+        "segments": 2,
+        "endpoints": 2,
+        "status": "matched",
+        "mean_cost": 0.06495825368782715,
+        "maximum_cost": 0.10408044772766185
+      },
+      {
+        "kind": "terminal",
+        "tree": 19,
+        "order": 1,
+        "segments": 1,
+        "endpoints": 1,
+        "status": "matched",
+        "mean_cost": 0.06636514105127742,
+        "maximum_cost": 0.06636514105127742
+      }
+    ],
+    "unmatched_segments": [],
+    "unmatched_endpoints": [],
+    "assigned_endpoints": 482
+  },
+  "topology": {
+    "coordinate_tolerance_um": 0.08,
+    "missing_parent_segments": [],
+    "ambiguous_parent_segments": [],
+    "root_segments": [
+      3,
+      4,
+      16,
+      17,
+      41,
+      42,
+      43,
+      48,
+      58,
+      68,
+      128,
+      129,
+      134,
+      135,
+      387,
+      398,
+      473,
+      481,
+      482
+    ]
+  },
+  "cycles": [],
+  "total_cable_length_um": 1584.1,
+  "maximum_branch_order": 17,
+  "number_of_process_trees": 19,
+  "child_count_distribution": {
+    "0": 270,
+    "2": 180,
+    "3": 27,
+    "4": 4,
+    "6": 1
+  },
+  "endpoint_match_cost": {
+    "mean": 0.08143252012029036,
+    "maximum": 0.41407557636141107
+  },
+  "path_length_error_um": {
+    "mean": -2.554979253112033,
+    "mean_absolute": 7.083609958506225,
+    "maximum_absolute": 51.2,
+    "n": 482
+  }
+}
