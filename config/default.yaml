@@ -1,0 +1,39 @@
+project:
+  name: opc-passive-cable
+  random_seed: 2026
+
+paths:
+  dataset_root: data/source/MariaDATA
+  results_root: results
+  reconstruction_root: results/gm1_gm3/reconstructions
+
+execution:
+  stages: [gm0, gm1_gm3, gm4, gm45, gm5, gm6, gm7]
+  workers: 1
+  limit: null
+  force: false
+  enable_gm7_interactions: false
+
+# Common-Rm control used by GM4 to isolate morphology-only effects.
+passive_control:
+  rm_ohm_cm2: 20000.0
+  ra_ohm_cm: 150.0
+  cm_uF_cm2: 1.0
+  process_diameter_um: 0.30
+  e_pas_mV: -75.0
+
+calibration:
+  base_rm_kohm_cm2: [2, 3, 4, 5, 6, 7, 8, 10, 12, 15, 20]
+  p10_extension_rm_kohm_cm2: [24, 26, 28, 30, 32]
+  calibrated_rm_kohm_cm2_by_age:
+    P10: 29.741010083005232
+    P20: 10.094385601286076
+    P50: 2.394438696918089
+
+protocols:
+  gm4_matrix_mode: representative
+  representative_terminals: 8
+
+figures:
+  dpi: 300
+  notebook_timeout_seconds: 1800
