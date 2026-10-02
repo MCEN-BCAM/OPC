@@ -1,0 +1,5 @@
+outcome,predictor,spearman_rho,p_value,p_holm
+input_resistance_MOhm,total_process_length_um,-0.9907563025210085,3.261725381539266e-30,1.3046901526157064e-29
+input_resistance_MOhm,max_node_path_distance_um,-0.4905792641750223,0.0027716775666962947,0.0027716775666962947
+input_resistance_MOhm,n_terminal_segments,-0.8336134453781513,5.083489152252562e-10,1.5250467456757686e-09
+input_resistance_MOhm,n_branch_segments,-0.8181245205299967,1.9529805830086454e-09,3.905961166017291e-09

@@ -1,0 +1,5 @@
+metric,label,test,statistic,p_value
+input_resistance_MOhm,Input resistance (MΩ),Kruskal-Wallis,10.994733044733039,0.004097548043386262
+tau_ms,Membrane time constant (ms),Kruskal-Wallis,8.53499278499281,0.014016831906407953
+minimum_soma_normalised_attenuation,Minimum soma-normalised attenuation,Kruskal-Wallis,8.661399711399724,0.013158335330882686
+mean_soma_normalised_attenuation,Mean soma-normalised attenuation,Kruskal-Wallis,9.145598845598869,0.010329003957641868

@@ -1,0 +1,7 @@
+metric,test,statistic,p_value
+proximal_epsp_mV,Kruskal-Wallis,11.80937950937951,0.0027266275729432364
+intermediate_epsp_mV,Kruskal-Wallis,11.295093795093806,0.0035261561963019186
+distal_epsp_mV,Kruskal-Wallis,12.708730158730177,0.001739139063381861
+distal_to_proximal_ratio,Kruskal-Wallis,3.887950937950947,0.14313379325440614
+max_temporal_summation_ratio,Kruskal-Wallis,0.24148629148631073,0.8862615704172592
+spatial_8syn_summation_ratio,Kruskal-Wallis,7.307215007215021,0.025897534610076798

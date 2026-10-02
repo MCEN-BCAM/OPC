@@ -1,0 +1,5 @@
+x,y,method,rho,p_value,n
+input_resistance_MOhm,temporal_2ms_gain_over_single,Spearman,-0.47955182072829133,0.0035574575268205,35
+tau_ms,spatial_8syn_linearity_ratio,Spearman,-0.3072829131652662,0.07255592053638255,35
+mean_soma_normalised_attenuation,spatial_8syn_linearity_ratio,Spearman,-0.2851540616246499,0.09683339040912467,35
+input_resistance_MOhm,spatial_8syn_linearity_ratio,Spearman,-0.9551820728291317,5.14832776893835e-19,35

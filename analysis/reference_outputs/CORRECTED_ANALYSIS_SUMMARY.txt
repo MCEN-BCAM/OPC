@@ -1,0 +1,23 @@
+Corrected spatial-summation analysis
+====================================
+
+Audit: 35 cells, 140 spatial rows, zero failures, all N=1 ratios exactly 1 within 1e-12.
+
+N=1: cohort mean ratio=1.000000, range=1.000000–1.000000
+N=2: cohort mean ratio=0.992951, range=0.985674–0.996137
+N=4: cohort mean ratio=0.980434, range=0.968231–0.989338
+N=8: cohort mean ratio=0.956952, range=0.928115–0.975003
+
+Kruskal-Wallis age tests for corrected spatial linearity:
+N=1: not tested; ratio is identically 1 by definition
+N=2: H=6.9111, p=0.0315698
+N=4: H=6.2296, p=0.0443878
+N=8: H=7.3072, p=0.0258975
+
+Holm-corrected pairwise result at N=8: P10 vs P20 p=0.0424; other pairs not significant.
+
+Corrected passive correlations:
+input_resistance_MOhm vs temporal_2ms_gain_over_single: rho=-0.4796, p=0.00355746, n=35
+tau_ms vs spatial_8syn_linearity_ratio: rho=-0.3073, p=0.0725559, n=35
+mean_soma_normalised_attenuation vs spatial_8syn_linearity_ratio: rho=-0.2852, p=0.0968334, n=35
+input_resistance_MOhm vs spatial_8syn_linearity_ratio: rho=-0.9552, p=5.14833e-19, n=35

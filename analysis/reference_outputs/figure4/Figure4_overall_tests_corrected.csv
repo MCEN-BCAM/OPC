@@ -1,0 +1,19 @@
+protocol,condition,condition_column,metric,test,statistic,p_value
+temporal,2.0,interval_ms,soma_epsp_mV,Kruskal-Wallis,12.708730158730177,0.0017391390633818
+temporal,2.0,interval_ms,temporal_linearity_ratio,Kruskal-Wallis,0.2414862914863107,0.8862615704172592
+temporal,5.0,interval_ms,soma_epsp_mV,Kruskal-Wallis,12.708730158730177,0.0017391390633818
+temporal,5.0,interval_ms,temporal_linearity_ratio,Kruskal-Wallis,7.420490620490625,0.0244715194208474
+temporal,10.0,interval_ms,soma_epsp_mV,Kruskal-Wallis,12.708730158730177,0.0017391390633818
+temporal,10.0,interval_ms,temporal_linearity_ratio,Kruskal-Wallis,12.53953823953826,0.0018926655118192
+temporal,20.0,interval_ms,soma_epsp_mV,Kruskal-Wallis,12.708730158730177,0.0017391390633818
+temporal,20.0,interval_ms,temporal_linearity_ratio,Kruskal-Wallis,15.065440115440126,0.000535280281434
+temporal,50.0,interval_ms,soma_epsp_mV,Kruskal-Wallis,12.708730158730177,0.0017391390633818
+temporal,50.0,interval_ms,temporal_linearity_ratio,Kruskal-Wallis,15.454184704184698,0.0004407237252929
+spatial,1.0,n_synapses,soma_epsp_mV,Kruskal-Wallis,10.304617604617604,0.0057860304929911
+spatial,1.0,n_synapses,spatial_linearity_ratio,Constant by definition,0.0,1.0
+spatial,2.0,n_synapses,soma_epsp_mV,Kruskal-Wallis,11.550649350649364,0.0031031899658619
+spatial,2.0,n_synapses,spatial_linearity_ratio,Kruskal-Wallis,6.911111111111111,0.0315697607273521
+spatial,4.0,n_synapses,soma_epsp_mV,Kruskal-Wallis,10.99473304473304,0.0040975480433862
+spatial,4.0,n_synapses,spatial_linearity_ratio,Kruskal-Wallis,6.229581529581537,0.0443877936652164
+spatial,8.0,n_synapses,soma_epsp_mV,Kruskal-Wallis,11.295093795093806,0.0035261561963019
+spatial,8.0,n_synapses,spatial_linearity_ratio,Kruskal-Wallis,7.307215007215021,0.0258975346100767
