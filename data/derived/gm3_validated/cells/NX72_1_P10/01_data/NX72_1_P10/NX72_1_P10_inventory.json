@@ -1,0 +1,56 @@
+{
+  "cell_id": "NX72_1_P10",
+  "files": [
+    {
+      "path": "/Users/mdesroches/Library/CloudStorage/Dropbox/PROJECTS_SR_MD/BCAM/Projects/MARIA_KUKLEY_OLIGODENDROCYTES/MariaDATA/NLResults/Angles/P10/XLSX_Files/NX72_1_angles.xlsx",
+      "filename": "NX72_1_angles.xlsx",
+      "family": "angles",
+      "animal": "NX72",
+      "tracing": "1",
+      "age": "P10",
+      "cell_id": "NX72_1_P10",
+      "subtype": null
+    },
+    {
+      "path": "/Users/mdesroches/Library/CloudStorage/Dropbox/PROJECTS_SR_MD/BCAM/Projects/MARIA_KUKLEY_OLIGODENDROCYTES/MariaDATA/NLResults/BasicAnalyses/P10/NX72_1_p10_0aligned1.xls",
+      "filename": "NX72_1_p10_0aligned1.xls",
+      "family": "basic",
+      "animal": "NX72",
+      "tracing": "1",
+      "age": "P10",
+      "cell_id": "NX72_1_P10",
+      "subtype": null
+    },
+    {
+      "path": "/Users/mdesroches/Library/CloudStorage/Dropbox/PROJECTS_SR_MD/BCAM/Projects/MARIA_KUKLEY_OLIGODENDROCYTES/MariaDATA/NLResults/NearestNeighbour/P10/XLSX_Files/NX72_1_NN_2_5.xlsx",
+      "filename": "NX72_1_NN_2_5.xlsx",
+      "family": "nearest_neighbour",
+      "animal": "NX72",
+      "tracing": "1",
+      "age": "P10",
+      "cell_id": "NX72_1_P10",
+      "subtype": "2_5"
+    },
+    {
+      "path": "/Users/mdesroches/Library/CloudStorage/Dropbox/PROJECTS_SR_MD/BCAM/Projects/MARIA_KUKLEY_OLIGODENDROCYTES/MariaDATA/NLResults/NearestNeighbour/P10/XLSX_Files/NX72_1_NN.xlsx",
+      "filename": "NX72_1_NN.xlsx",
+      "family": "nearest_neighbour",
+      "animal": "NX72",
+      "tracing": "1",
+      "age": "P10",
+      "cell_id": "NX72_1_P10",
+      "subtype": "standard"
+    },
+    {
+      "path": "/Users/mdesroches/Library/CloudStorage/Dropbox/PROJECTS_SR_MD/BCAM/Projects/MARIA_KUKLEY_OLIGODENDROCYTES/MariaDATA/NLResults/Sholl/P10/NX72_1_Sholl2_5.xls",
+      "filename": "NX72_1_Sholl2_5.xls",
+      "family": "sholl",
+      "animal": "NX72",
+      "tracing": "1",
+      "age": "P10",
+      "cell_id": "NX72_1_P10",
+      "subtype": null
+    }
+  ],
+  "warnings": []
+}

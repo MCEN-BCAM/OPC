@@ -1,0 +1,385 @@
+{
+  "cell_id": "NX72_2_P10",
+  "sholl_rows": [
+    {
+      "radius_um": 0.0,
+      "intersections_reconstructed": 0.0,
+      "length_reconstructed_um": 0.0,
+      "nodes_reconstructed": 0.0,
+      "endings_reconstructed": 0.0,
+      "intersections_measured": 0.0,
+      "length_measured_um": 0.0,
+      "nodes_measured": 0.0,
+      "endings_measured": 0.0
+    },
+    {
+      "radius_um": 2.5,
+      "intersections_reconstructed": 0.0,
+      "length_reconstructed_um": 0.0,
+      "nodes_reconstructed": 0.0,
+      "endings_reconstructed": 0.0,
+      "intersections_measured": 0.0,
+      "length_measured_um": 0.0,
+      "nodes_measured": 0.0,
+      "endings_measured": 0.0
+    },
+    {
+      "radius_um": 5.0,
+      "intersections_reconstructed": 23.0,
+      "length_reconstructed_um": 59.924443887947106,
+      "nodes_reconstructed": 11.0,
+      "endings_reconstructed": 14.0,
+      "intersections_measured": 23.0,
+      "length_measured_um": 59.7,
+      "nodes_measured": 11.0,
+      "endings_measured": 14.0
+    },
+    {
+      "radius_um": 7.5,
+      "intersections_reconstructed": 29.0,
+      "length_reconstructed_um": 132.3241765358298,
+      "nodes_reconstructed": 22.0,
+      "endings_reconstructed": 28.0,
+      "intersections_measured": 34.0,
+      "length_measured_um": 133.7,
+      "nodes_measured": 24.0,
+      "endings_measured": 27.0
+    },
+    {
+      "radius_um": 10.0,
+      "intersections_reconstructed": 39.0,
+      "length_reconstructed_um": 194.29269338124786,
+      "nodes_reconstructed": 47.0,
+      "endings_reconstructed": 44.0,
+      "intersections_measured": 41.0,
+      "length_measured_um": 194.5,
+      "nodes_measured": 51.0,
+      "endings_measured": 46.0
+    },
+    {
+      "radius_um": 12.5,
+      "intersections_reconstructed": 36.0,
+      "length_reconstructed_um": 189.38836044523657,
+      "nodes_reconstructed": 33.0,
+      "endings_reconstructed": 41.0,
+      "intersections_measured": 52.0,
+      "length_measured_um": 193.7,
+      "nodes_measured": 30.0,
+      "endings_measured": 41.0
+    },
+    {
+      "radius_um": 15.0,
+      "intersections_reconstructed": 35.0,
+      "length_reconstructed_um": 221.73501041986503,
+      "nodes_reconstructed": 50.0,
+      "endings_reconstructed": 54.0,
+      "intersections_measured": 40.0,
+      "length_measured_um": 229.1,
+      "nodes_measured": 54.0,
+      "endings_measured": 57.0
+    },
+    {
+      "radius_um": 17.5,
+      "intersections_reconstructed": 25.0,
+      "length_reconstructed_um": 208.01253694656066,
+      "nodes_reconstructed": 43.0,
+      "endings_reconstructed": 54.0,
+      "intersections_measured": 37.0,
+      "length_measured_um": 195.5,
+      "nodes_measured": 37.0,
+      "endings_measured": 51.0
+    },
+    {
+      "radius_um": 20.0,
+      "intersections_reconstructed": 22.0,
+      "length_reconstructed_um": 172.8202333765898,
+      "nodes_reconstructed": 29.0,
+      "endings_reconstructed": 36.0,
+      "intersections_measured": 26.0,
+      "length_measured_um": 170.4,
+      "nodes_measured": 26.0,
+      "endings_measured": 35.0
+    },
+    {
+      "radius_um": 22.5,
+      "intersections_reconstructed": 12.0,
+      "length_reconstructed_um": 79.3117870575679,
+      "nodes_reconstructed": 10.0,
+      "endings_reconstructed": 23.0,
+      "intersections_measured": 13.0,
+      "length_measured_um": 79.8,
+      "nodes_measured": 11.0,
+      "endings_measured": 23.0
+    },
+    {
+      "radius_um": 25.0,
+      "intersections_reconstructed": 15.0,
+      "length_reconstructed_um": 63.0735889825111,
+      "nodes_reconstructed": 14.0,
+      "endings_reconstructed": 20.0,
+      "intersections_measured": 12.0,
+      "length_measured_um": 66.0,
+      "nodes_measured": 18.0,
+      "endings_measured": 21.0
+    },
+    {
+      "radius_um": 27.5,
+      "intersections_reconstructed": 5.0,
+      "length_reconstructed_um": 57.675992495101106,
+      "nodes_reconstructed": 14.0,
+      "endings_reconstructed": 12.0,
+      "intersections_measured": 5.0,
+      "length_measured_um": 56.2,
+      "nodes_measured": 11.0,
+      "endings_measured": 11.0
+    },
+    {
+      "radius_um": 30.0,
+      "intersections_reconstructed": 5.0,
+      "length_reconstructed_um": 17.7110859698316,
+      "nodes_reconstructed": 1.0,
+      "endings_reconstructed": 7.0,
+      "intersections_measured": 5.0,
+      "length_measured_um": 19.8,
+      "nodes_measured": 2.0,
+      "endings_measured": 8.0
+    },
+    {
+      "radius_um": 32.5,
+      "intersections_reconstructed": 2.0,
+      "length_reconstructed_um": 17.9636010968647,
+      "nodes_reconstructed": 4.0,
+      "endings_reconstructed": 4.0,
+      "intersections_measured": 2.0,
+      "length_measured_um": 15.4,
+      "nodes_measured": 3.0,
+      "endings_measured": 3.0
+    },
+    {
+      "radius_um": 35.0,
+      "intersections_reconstructed": 0.0,
+      "length_reconstructed_um": 2.5664894048467,
+      "nodes_reconstructed": 0.0,
+      "endings_reconstructed": 2.0,
+      "intersections_measured": 0.0,
+      "length_measured_um": 1.7,
+      "nodes_measured": 0.0,
+      "endings_measured": 2.0
+    }
+  ],
+  "sholl_metrics": {
+    "length": {
+      "mae": 2.5884396277213466,
+      "rmse": 4.162594242084325,
+      "correlation": 0.9986671090371165,
+      "relative_l1": 0.027429596902734155,
+      "measured_total": 1415.5,
+      "reconstructed_total": 1416.8
+    },
+    "intersections": {
+      "mae": 3.2,
+      "rmse": 5.656854249492381,
+      "correlation": 0.9750212259557668,
+      "relative_l1": 0.16551724137931034,
+      "measured_total": 290.0,
+      "reconstructed_total": 248.0
+    },
+    "nodes": {
+      "mae": 2.1333333333333333,
+      "rmse": 2.804757862395017,
+      "correlation": 0.9870521714752192,
+      "relative_l1": 0.11510791366906475,
+      "measured_total": 278.0,
+      "reconstructed_total": 278.0
+    },
+    "endings": {
+      "mae": 0.9333333333333333,
+      "rmse": 1.3662601021279464,
+      "correlation": 0.9973790341106118,
+      "relative_l1": 0.04129793510324484,
+      "measured_total": 339.0,
+      "reconstructed_total": 339.0
+    }
+  },
+  "branch_order": {
+    "rows": [
+      {
+        "order": 1,
+        "measured_length_um": 59.199999999999996,
+        "reconstructed_length_um": 59.5
+      },
+      {
+        "order": 2,
+        "measured_length_um": 72.7,
+        "reconstructed_length_um": 72.90000000000002
+      },
+      {
+        "order": 3,
+        "measured_length_um": 80.60000000000001,
+        "reconstructed_length_um": 80.89999999999998
+      },
+      {
+        "order": 4,
+        "measured_length_um": 86.10000000000001,
+        "reconstructed_length_um": 85.8
+      },
+      {
+        "order": 5,
+        "measured_length_um": 78.9,
+        "reconstructed_length_um": 78.8
+      },
+      {
+        "order": 6,
+        "measured_length_um": 84.60000000000001,
+        "reconstructed_length_um": 84.50000000000004
+      },
+      {
+        "order": 7,
+        "measured_length_um": 86.8,
+        "reconstructed_length_um": 86.89999999999999
+      },
+      {
+        "order": 8,
+        "measured_length_um": 106.2,
+        "reconstructed_length_um": 106.10000000000001
+      },
+      {
+        "order": 9,
+        "measured_length_um": 128.0,
+        "reconstructed_length_um": 128.2
+      },
+      {
+        "order": 10,
+        "measured_length_um": 68.5,
+        "reconstructed_length_um": 68.60000000000002
+      },
+      {
+        "order": 11,
+        "measured_length_um": 105.2,
+        "reconstructed_length_um": 105.20000000000002
+      },
+      {
+        "order": 12,
+        "measured_length_um": 104.20000000000002,
+        "reconstructed_length_um": 104.39999999999999
+      },
+      {
+        "order": 13,
+        "measured_length_um": 87.2,
+        "reconstructed_length_um": 87.7
+      },
+      {
+        "order": 14,
+        "measured_length_um": 78.0,
+        "reconstructed_length_um": 78.10000000000001
+      },
+      {
+        "order": 15,
+        "measured_length_um": 37.3,
+        "reconstructed_length_um": 37.400000000000006
+      },
+      {
+        "order": 16,
+        "measured_length_um": 29.9,
+        "reconstructed_length_um": 29.599999999999998
+      },
+      {
+        "order": 17,
+        "measured_length_um": 27.400000000000002,
+        "reconstructed_length_um": 27.500000000000004
+      },
+      {
+        "order": 18,
+        "measured_length_um": 21.4,
+        "reconstructed_length_um": 21.200000000000003
+      },
+      {
+        "order": 19,
+        "measured_length_um": 12.5,
+        "reconstructed_length_um": 12.400000000000002
+      },
+      {
+        "order": 20,
+        "measured_length_um": 9.1,
+        "reconstructed_length_um": 9.100000000000001
+      },
+      {
+        "order": 21,
+        "measured_length_um": 17.200000000000003,
+        "reconstructed_length_um": 17.4
+      },
+      {
+        "order": 22,
+        "measured_length_um": 12.4,
+        "reconstructed_length_um": 12.4
+      },
+      {
+        "order": 23,
+        "measured_length_um": 14.799999999999999,
+        "reconstructed_length_um": 14.8
+      },
+      {
+        "order": 24,
+        "measured_length_um": 3.7,
+        "reconstructed_length_um": 3.7
+      },
+      {
+        "order": 25,
+        "measured_length_um": 3.6,
+        "reconstructed_length_um": 3.7
+      }
+    ],
+    "metrics": {
+      "mae": 0.14799999999999908,
+      "rmse": 0.19078784028338705,
+      "correlation": 0.9999888785335875,
+      "relative_l1": 0.002613917343694791
+    }
+  },
+  "nearest_neighbour": {
+    "matched_coordinate_set": "terminal",
+    "candidates": {
+      "branch": {
+        "candidate_point_count": 278,
+        "measured_point_count": 339,
+        "mean_coordinate_mismatch_um": 1.5529530450671225,
+        "median_coordinate_mismatch_um": 1.287555824032497,
+        "points_within_0_15_um": 0,
+        "nearest_distance_metrics": {
+          "mae": 0.43356511305905043,
+          "rmse": 0.6264852532521487,
+          "correlation": 0.8279729917808147,
+          "relative_l1": 0.28141746773386883
+        }
+      },
+      "terminal": {
+        "candidate_point_count": 339,
+        "measured_point_count": 339,
+        "mean_coordinate_mismatch_um": 0.0480601114869944,
+        "median_coordinate_mismatch_um": 0.05000000000000462,
+        "points_within_0_15_um": 339,
+        "nearest_distance_metrics": {
+          "mae": 0.024117781572769847,
+          "rmse": 0.027836253675220645,
+          "correlation": 0.9996473824544786,
+          "relative_l1": 0.012778880827084994
+        }
+      }
+    },
+    "note": "The best-matching reconstructed endpoint class is selected from branch points and terminal endings because the uploaded NN headers use the generic label 'termination'."
+  },
+  "angles": {
+    "xy_angle": {
+      "mean_absolute_deg": 0.2081515363581193,
+      "maximum_absolute_deg": 2.5288077091539094
+    },
+    "z_angle": {
+      "mae": 0.06044297287820108,
+      "rmse": 0.11163442454492005,
+      "correlation": 0.9999944047479916,
+      "relative_l1": 0.002345034255324437
+    },
+    "measured_rows": 617,
+    "reconstructed_segments": 617
+  }
+}
