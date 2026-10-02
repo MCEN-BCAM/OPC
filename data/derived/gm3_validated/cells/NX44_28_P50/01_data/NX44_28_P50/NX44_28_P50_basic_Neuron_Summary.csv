@@ -1,0 +1,5 @@
+name,qty,nodes,ends,spines,none_spine,thin_spine,stubby_spine,mushroom_spine,filopodia_spine,branched_spine,detached_spine,other_spine,length_um,mean_len,area_um2,mean_area,surface_um2,mean_sur,volume_um3,mean_vol,complexity
+Cell body,1,,,,,,,,,,,,31.1,31.1,61.6278,61.6278,,,,,
+Axon,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0,0,0,0,0
+Dendrite,17,342,408,0,0,0,0,0,0,0,0,0,1566.5,92.1,,,50.5967,2.97628,0.131456,0.00773272,417786
+Apical Dendrite,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0,0,0,0,0

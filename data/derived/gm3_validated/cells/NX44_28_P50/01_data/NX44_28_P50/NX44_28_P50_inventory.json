@@ -1,0 +1,56 @@
+{
+  "cell_id": "NX44_28_P50",
+  "files": [
+    {
+      "path": "/Users/mdesroches/Library/CloudStorage/Dropbox/PROJECTS_SR_MD/BCAM/Projects/MARIA_KUKLEY_OLIGODENDROCYTES/MariaDATA/NLResults/Angles/P50/XLSX_Files/NX44_28_angles.xlsx",
+      "filename": "NX44_28_angles.xlsx",
+      "family": "angles",
+      "animal": "NX44",
+      "tracing": "28",
+      "age": "P50",
+      "cell_id": "NX44_28_P50",
+      "subtype": null
+    },
+    {
+      "path": "/Users/mdesroches/Library/CloudStorage/Dropbox/PROJECTS_SR_MD/BCAM/Projects/MARIA_KUKLEY_OLIGODENDROCYTES/MariaDATA/NLResults/BasicAnalyses/P50/NX44_28_p50_0aligned1.xls",
+      "filename": "NX44_28_p50_0aligned1.xls",
+      "family": "basic",
+      "animal": "NX44",
+      "tracing": "28",
+      "age": "P50",
+      "cell_id": "NX44_28_P50",
+      "subtype": null
+    },
+    {
+      "path": "/Users/mdesroches/Library/CloudStorage/Dropbox/PROJECTS_SR_MD/BCAM/Projects/MARIA_KUKLEY_OLIGODENDROCYTES/MariaDATA/NLResults/NearestNeighbour/P50/XLSX_Files/NX44_28_NN_2_5.xlsx",
+      "filename": "NX44_28_NN_2_5.xlsx",
+      "family": "nearest_neighbour",
+      "animal": "NX44",
+      "tracing": "28",
+      "age": "P50",
+      "cell_id": "NX44_28_P50",
+      "subtype": "2_5"
+    },
+    {
+      "path": "/Users/mdesroches/Library/CloudStorage/Dropbox/PROJECTS_SR_MD/BCAM/Projects/MARIA_KUKLEY_OLIGODENDROCYTES/MariaDATA/NLResults/NearestNeighbour/P50/XLSX_Files/NX44_28_NN.xlsx",
+      "filename": "NX44_28_NN.xlsx",
+      "family": "nearest_neighbour",
+      "animal": "NX44",
+      "tracing": "28",
+      "age": "P50",
+      "cell_id": "NX44_28_P50",
+      "subtype": "standard"
+    },
+    {
+      "path": "/Users/mdesroches/Library/CloudStorage/Dropbox/PROJECTS_SR_MD/BCAM/Projects/MARIA_KUKLEY_OLIGODENDROCYTES/MariaDATA/NLResults/Sholl/P50/NX44_28_Sholl2_5_STree.xls",
+      "filename": "NX44_28_Sholl2_5_STree.xls",
+      "family": "sholl",
+      "animal": "NX44",
+      "tracing": "28",
+      "age": "P50",
+      "cell_id": "NX44_28_P50",
+      "subtype": null
+    }
+  ],
+  "warnings": []
+}
