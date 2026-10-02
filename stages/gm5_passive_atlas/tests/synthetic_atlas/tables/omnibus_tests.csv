@@ -1,0 +1,10 @@
+metric,test,groups,statistic,p_value
+input_resistance_MOhm,Kruskal-Wallis,P10;P20;P50,7.200000000000003,0.02732372244729252
+tau_ms,Kruskal-Wallis,P10;P20;P50,7.200000000000003,0.02732372244729252
+maximum_path_distance_um,Kruskal-Wallis,P10;P20;P50,0.0,1.0
+mean_soma_normalised_attenuation,Kruskal-Wallis,P10;P20;P50,0.0,1.0
+minimum_soma_normalised_attenuation,Kruskal-Wallis,P10;P20;P50,0.0,1.0
+total_cable_length_um,Kruskal-Wallis,P10;P20;P50,7.200000000000003,0.02732372244729252
+maximum_branch_order,Kruskal-Wallis,P10;P20;P50,0.0,1.0
+n_terminals,Kruskal-Wallis,P10;P20;P50,0.0,1.0
+n_segments,Kruskal-Wallis,P10;P20;P50,0.0,1.0

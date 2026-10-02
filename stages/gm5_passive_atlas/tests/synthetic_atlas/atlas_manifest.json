@@ -1,0 +1,38 @@
+{
+  "created_at": "2026-08-06T11:54:18.441335+00:00",
+  "python": "3.13.9 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 19:11:29) [Clang 20.1.8 ]",
+  "platform": "macOS-26.3.1-arm64-arm-64bit-Mach-O",
+  "step4_root": "tests/synthetic_step4",
+  "config": {
+    "quality_control": {
+      "minimum_tau_fit_r2": 0.95,
+      "require_resting_stable": true,
+      "require_positive_input_resistance": true,
+      "require_positive_tau": true,
+      "minimum_cells_per_age_for_inference": 3
+    },
+    "attenuation": {
+      "distance_bin_um": 10.0,
+      "maximum_normalised_attenuation": 1.25,
+      "minimum_normalised_attenuation": 0.0
+    },
+    "statistics": {
+      "bootstrap_replicates": 2000,
+      "random_seed": 1729,
+      "confidence_level": 0.95,
+      "permutation_replicates": 5000
+    },
+    "figures": {
+      "dpi": 200,
+      "formats": [
+        "png",
+        "pdf"
+      ]
+    }
+  },
+  "n_cell_directories": 9,
+  "n_loaded": 9,
+  "n_accepted": 9,
+  "n_excluded": 0,
+  "n_ingestion_failures": 0
+}

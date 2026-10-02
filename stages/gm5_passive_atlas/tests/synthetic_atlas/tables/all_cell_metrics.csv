@@ -1,0 +1,10 @@
+cell_id,age_group,n_segments,total_cable_length_um,maximum_branch_order,n_terminals,input_resistance_MOhm,tau_ms,tau_fit_r2,maximum_path_distance_um,mean_soma_normalised_attenuation,minimum_soma_normalised_attenuation,resting_stable,matrix_mode,n_transfer_rows,qc_status
+SYN1_P10,P10,20,1000,4,6,636.9641769477662,19.825282707674223,0.99,120,0.72,0.45,True,representative,81,accepted
+SYN1_P20,P20,20,2000,4,6,587.5307251802321,22.148631523252025,0.99,120,0.72,0.45,True,representative,81,accepted
+SYN1_P50,P50,20,3000,4,6,556.3329003294381,24.510546661697642,0.99,120,0.72,0.45,True,representative,81,accepted
+SYN2_P10,P10,21,1020,5,7,683.2744798278239,20.659147749832254,0.99,130,0.72,0.45,True,representative,81,accepted
+SYN2_P20,P20,21,2020,5,7,567.8362443162722,22.24177187687685,0.99,130,0.72,0.45,True,representative,81,accepted
+SYN2_P50,P50,21,3020,5,7,520.1376663007153,26.252729124724027,0.99,130,0.72,0.45,True,representative,81,accepted
+SYN3_P10,P10,22,1040,6,8,617.1720541083071,19.994796735828068,0.99,140,0.72,0.45,True,representative,81,accepted
+SYN3_P20,P20,22,2040,6,8,604.7076183747491,23.57562603143146,0.99,140,0.72,0.45,True,representative,81,accepted
+SYN3_P50,P50,22,3040,6,8,511.687088840834,25.101801855822483,0.99,140,0.72,0.45,True,representative,81,accepted

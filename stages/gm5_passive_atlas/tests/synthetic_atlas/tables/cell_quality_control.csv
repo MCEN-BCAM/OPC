@@ -1,0 +1,10 @@
+cell_id,age_group,qc_status,n_errors,n_warnings,errors,warnings
+SYN1_P10,P10,accepted,0,0,,
+SYN1_P20,P20,accepted,0,0,,
+SYN1_P50,P50,accepted,0,0,,
+SYN2_P10,P10,accepted,0,0,,
+SYN2_P20,P20,accepted,0,0,,
+SYN2_P50,P50,accepted,0,0,,
+SYN3_P10,P10,accepted,0,0,,
+SYN3_P20,P20,accepted,0,0,,
+SYN3_P50,P50,accepted,0,0,,
