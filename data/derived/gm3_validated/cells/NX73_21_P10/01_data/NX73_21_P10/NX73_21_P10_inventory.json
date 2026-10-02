@@ -1,0 +1,56 @@
+{
+  "cell_id": "NX73_21_P10",
+  "files": [
+    {
+      "path": "/Users/mdesroches/Library/CloudStorage/Dropbox/PROJECTS_SR_MD/BCAM/Projects/MARIA_KUKLEY_OLIGODENDROCYTES/MariaDATA/NLResults/Angles/P10/XLSX_Files/NX73_21_angles.xlsx",
+      "filename": "NX73_21_angles.xlsx",
+      "family": "angles",
+      "animal": "NX73",
+      "tracing": "21",
+      "age": "P10",
+      "cell_id": "NX73_21_P10",
+      "subtype": null
+    },
+    {
+      "path": "/Users/mdesroches/Library/CloudStorage/Dropbox/PROJECTS_SR_MD/BCAM/Projects/MARIA_KUKLEY_OLIGODENDROCYTES/MariaDATA/NLResults/BasicAnalyses/P10/NX73_21_p10_0aligned1.xls",
+      "filename": "NX73_21_p10_0aligned1.xls",
+      "family": "basic",
+      "animal": "NX73",
+      "tracing": "21",
+      "age": "P10",
+      "cell_id": "NX73_21_P10",
+      "subtype": null
+    },
+    {
+      "path": "/Users/mdesroches/Library/CloudStorage/Dropbox/PROJECTS_SR_MD/BCAM/Projects/MARIA_KUKLEY_OLIGODENDROCYTES/MariaDATA/NLResults/NearestNeighbour/P10/XLSX_Files/NX73_21_NN_2_5.xlsx",
+      "filename": "NX73_21_NN_2_5.xlsx",
+      "family": "nearest_neighbour",
+      "animal": "NX73",
+      "tracing": "21",
+      "age": "P10",
+      "cell_id": "NX73_21_P10",
+      "subtype": "2_5"
+    },
+    {
+      "path": "/Users/mdesroches/Library/CloudStorage/Dropbox/PROJECTS_SR_MD/BCAM/Projects/MARIA_KUKLEY_OLIGODENDROCYTES/MariaDATA/NLResults/NearestNeighbour/P10/XLSX_Files/NX73_21_NN.xlsx",
+      "filename": "NX73_21_NN.xlsx",
+      "family": "nearest_neighbour",
+      "animal": "NX73",
+      "tracing": "21",
+      "age": "P10",
+      "cell_id": "NX73_21_P10",
+      "subtype": "standard"
+    },
+    {
+      "path": "/Users/mdesroches/Library/CloudStorage/Dropbox/PROJECTS_SR_MD/BCAM/Projects/MARIA_KUKLEY_OLIGODENDROCYTES/MariaDATA/NLResults/Sholl/P10/NX73_21_Sholl2_5.xls",
+      "filename": "NX73_21_Sholl2_5.xls",
+      "family": "sholl",
+      "animal": "NX73",
+      "tracing": "21",
+      "age": "P10",
+      "cell_id": "NX73_21_P10",
+      "subtype": null
+    }
+  ],
+  "warnings": []
+}
